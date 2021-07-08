@@ -23,6 +23,8 @@ Doc : https://docs.google.com/document/d/1XdeCEjzt9AmTnvXsguX1nNWzXl25EFveShn12T
 
 ## Timeline
 
-July 8th-17th : Find good inspirations sites and templates
-July 17th-24h : Finalize on the design
-July 26th - Aug10 : Start coding
+- July 8th-17th : Find good inspirations sites and templates
+
+- July 17th-24h : Finalize on the design
+
+- July 26th - Aug10 : Start coding
