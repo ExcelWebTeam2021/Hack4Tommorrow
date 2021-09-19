@@ -573,7 +573,11 @@ video {
 .about-image::before {
   position: absolute;
   content: "";
+<<<<<<< HEAD
   background-image: url("https://assets.materialup.com/uploads/db17c52b-0ee0-4491-be76-2d1586a75bb1/preview.gif");
+=======
+  /* background-image: url("https://assets.materialup.com/uploads/db17c52b-0ee0-4491-be76-2d1586a75bb1/preview.gif"); */
+>>>>>>> 26848c70a4d61295bf8f5afd8ac271826d1e506f
   background-position: center center;
   background-size: 100%;
   background-repeat: no-repeat;
