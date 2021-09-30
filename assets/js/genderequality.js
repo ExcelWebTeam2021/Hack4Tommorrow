@@ -1,6 +1,6 @@
 ScrollLottie({
-    target: "#landing",
-    path: 'https://assets10.lottiefiles.com/packages/lf20_yld1s2nm.json',
-    duration: 2,
-    speed: 'medium'
-})
+   target: "#landing",
+   path: "https://assets5.lottiefiles.com/packages/lf20_b4lnka8w.json",
+   duration: 2,
+   speed: "medium",
+});
