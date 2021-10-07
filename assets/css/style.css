@@ -1275,16 +1275,44 @@ i{
 /*===========================
        10.FOOTER css 
 ===========================*/
+
 .footer-widget {
-   background-color: #0f0f20;
+   background-color: #1a1a1a;
    font-size: 25px;
    padding-bottom: 5%;
+  
 }
 
+/* .footer-logo img{
+   width: 100px;
+} */
+
+.footer-excel {
+   width:65px ;
+}
+.footer-mec {
+   width:150px ;
+}
+.mec{
+   float:left;  
+}
+.excel{
+  float: right;
+}
 @media (max-width: 767px) {
    .footer-widget {
       padding-top: 30px;
       padding-bottom: 80px;
+   }
+   .footer-excel  {
+      width: 60px;
+      height: 60px;
+      margin-top: -85px;
+   }
+   .footer-mec {
+     
+      width: 70px;
+     
    }
 }
 
@@ -1296,79 +1324,17 @@ i{
    line-height: 26px;
    font-size: 24px;
 }
-
-.footer-logo .footer-info li {
-   margin-top: 4px;
-}
-
-.footer-logo .footer-info li .single-info {
-   position: relative;
-}
-
-.footer-logo .footer-info li .single-info .info-icon {
-   position: absolute;
-   top: 2px;
-   left: 0;
-}
-
-.footer-logo .footer-info li .single-info .info-icon i {
-   font-size: 30px;
-}
-
-.footer-logo .footer-info li .single-info .info-content {
-   padding-left: 30px;
-}
-
-.footer-logo .footer-social li {
+.logo{
    display: inline-block;
-   margin-left: 15px;
-}
-
-.footer-logo .footer-social li:first-child {
-   margin-left: 0;
-}
-
-.footer-logo .footer-social li a {
-   width: 35px;
-   height: 35px;
-   line-height: 40px;
-   text-align: center;
-   border-radius: 50%;
-   background-color: #fff5f1;
-   color: #646464;
-   font-size: 16px;
-   box-shadow: 0px 5px 21px 0px rgba(254, 119, 101, 0.4);
-   transition: all 0.4s ease-out 0s;
-}
-
-.footer-logo .footer-social li a:hover {
-   background-color: #330983;
-   color: #fff;
-}
-
-.f-title .title {
-   font-size: 22px;
-   font-family: "Barlow", sans-serif;
-   font-weight: 600;
-}
-
-.footer-link ul li {
-   padding-top: 5px;
-}
-
-.footer-link ul li a {
-   font-size: 16px;
-   color: #646464;
-   font-family: "Hind", sans-serif;
-   transition: all 0.4s ease-out 0s;
-}
-
-.footer-link ul li a:hover {
-   color: #c8c2d3;
 }
 
 .rounded-social-buttons {
-   text-align: center;
+   display:flex;
+   /* text-align: center; */
+   justify-content: center;
+   align-items: center;
+   /* margin-left: 1em; */
+   
 }
 
 .rounded-social-buttons .social-button {
@@ -1459,4 +1425,83 @@ i{
    color: #125688;
    background: #fefefe;
    border-color: #125688;
+}
+
+
+.footer-logo .footer-info li {
+   margin-top: 4px;
+}
+
+.footer-logo .footer-info li .single-info {
+   position: relative;
+}
+
+.footer-logo .footer-info li .single-info .info-icon {
+   position: absolute;
+   top: 2px;
+   left: 0;
+}
+
+.footer-logo .footer-info li .single-info .info-icon i {
+   font-size: 30px;
+}
+
+.footer-logo .footer-info li .single-info .info-content {
+   padding-left: 30px;
+}
+
+.footer-logo .footer-social li {
+   display: inline-block;
+   margin-left: 15px;
+}
+
+.footer-logo .footer-social li:first-child {
+   margin-left: 0;
+}
+
+.footer-logo .footer-social li a {
+   width: 35px;
+   height: 35px;
+   line-height: 40px;
+   text-align: center;
+   border-radius: 50%;
+   background-color: #fff5f1;
+   color: #646464;
+   font-size: 16px;
+   box-shadow: 0px 5px 21px 0px rgba(254, 119, 101, 0.4);
+   transition: all 0.4s ease-out 0s;
+}
+
+.footer-logo .footer-social li a:hover {
+   background-color: #330983;
+   color: #fff;
+}
+
+.f-title .title {
+   font-size: 22px;
+   font-family: "Barlow", sans-serif;
+   font-weight: 600;
+}
+.footer-link{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.footer-link ul li {
+   display: inline-block;
+  
+   padding: 5px 15px;
+
+
+}
+
+.footer-link ul li a {
+   font-size: 16px;
+   color: #646464;
+   font-family: "Hind", sans-serif;
+   transition: all 0.4s ease-out 0s;
+}
+
+.footer-link ul li a:hover {
+   color: #c8c2d3;
 }
