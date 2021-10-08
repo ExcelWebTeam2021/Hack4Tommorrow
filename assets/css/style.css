@@ -832,57 +832,57 @@ p {
 /* ========== FAQ ends =====*/
 
 /*===========================
-      4.SERVICES css 
+      4.PROBLEM STATEMENTS css 
 ===========================*/
 @media (max-width: 767px) {
-   .services-area {
+   .problem-statements-area {
       padding-top: 75px;
       padding-bottom: 80px;
    }
 }
 
-.single-services {
+.single-problem-statements {
    padding: 50px 30px;
    background-color: #fff;
    transition: all 0.4s ease-out 0s;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-   .single-services {
+   .single-problem-statements {
       padding: 30px 10px;
    }
 }
 
 @media (max-width: 767px) {
-   .single-services {
+   .single-problem-statements {
       padding: 30px 10px;
    }
 }
 
-.single-services .services-icon i {
+.single-problem-statements .problem-statements-icon i {
    font-size: 52px;
    color: #0a0a28;
    opacity: 0.75;
    transition: all 0.4s ease-out 0s;
 }
 
-.single-services .services-content .services-title {
+.single-problem-statements .problem-statements-content .problem-statements-title {
    font-size: 22px;
    font-weight: 600;
    font-family: "Barlow", sans-serif;
    transition: all 0.4s ease-out 0s;
 }
 
-.single-services:hover {
+.single-problem-statements:hover {
    background-color: #0a0a28;
 }
 
-.single-services:hover .services-icon i {
+.single-problem-statements:hover .problem-statements-icon i {
    color: #fff;
 }
 
-.single-services:hover .services-content .services-title,
-.single-services:hover .services-content p {
+.single-problem-statements:hover .problem-statements-content .problem-statements-title,
+.single-problem-statements:hover .problem-statements-content p {
    color: #fff;
 }
 
