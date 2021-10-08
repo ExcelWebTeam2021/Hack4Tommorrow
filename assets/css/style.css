@@ -1334,17 +1334,7 @@ width: 120px;
 
   
 }
-/* @media (max-width: 500px){
-   .footer-mec img{
-      
-      width: 80px;
-   }
-   .footer-excel img{
-    
-      width: 50px;
-      height: 50px;
-   }
-} */
+
 
 .footer-logo a img {
    width: 140px;
@@ -1426,11 +1416,18 @@ width: 120px;
 }
 
 
-i{
-   padding-bottom: 7px !important;
+#footer .row a i{
+   font-size:1.6rem ;
+  display: block;
+  
+  margin: 4.6px auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
-
+#footer .row a i .icon{
+   margin-top:9px !important ;
+}
 
 
 
