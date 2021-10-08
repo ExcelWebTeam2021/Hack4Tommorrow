@@ -326,8 +326,8 @@
             </div>
             <!-- row -->
         </div>
-        <div class="container-fluid">
-            <div class="row project-active">
+        <div class="container">
+            <div class="row project-active slider">
                 <div class="col-lg-4">
                     <div class="single-project">
                         <div class="project-image">
@@ -381,7 +381,7 @@
                 <div class="col-lg-4">
                     <div class="single-project">
                         <div class="project-image">
-                            <img src="assets/images/project/p-2.jpg" alt="Project">
+                            <img src="assets/images/project/p-1.png" alt="Project">
                         </div>
                         <div class="project-content">
                             <a class="project-title" href="#">Home Interior Design</a>
@@ -391,7 +391,7 @@
                 <div class="col-lg-4">
                     <div class="single-project">
                         <div class="project-image">
-                            <img src="assets/images/project/p-4.jpg" alt="Project">
+                            <img src="assets/images/project/p-1.png" alt="Project">
                         </div>
                         <div class="project-content">
                             <a class="project-title" href="#">Home Interior Design</a>
@@ -546,44 +546,28 @@
 
     <!--====== FOOTER PART START ======-->
 
-    <footer id="footer" class="footer-area">
+      <footer id="footer" class="footer-area">
         <div class="footer-widget pt-50 pb-1-0">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-8">
-                        <div class="footer-logo mt-50">
-                            <p>Excel logo</p>
-
-                        </div>
-                        <!-- footer logo -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6"  style="padding-top: 0; margin-top: 0;">
-                        <div class="footer-link mt-45">
-                            
-                            <ul class="mt-15" >
-                                <li><a href="#home"   style="font-size: 20px;">Home</a></li>
-                                <li><a href="#about"  style="font-size: 20px;">About</a></li>
-                                <li><a href="#problem-statement"  style="font-size: 20px;">Tracks</a></li>
-                                <li><a href="#project"  style="font-size: 20px;">Sponsers</a></li>
-                                <li><a href="#FAQ"       style="font-size: 20px;">FAQ</a></li>
-                            </ul>
-                            
-                        </div>
-                     
+                <div class="row ">
+                    <div class="footer-mec ">
+                        <a href="https://www.mec.ac.in/">
+                         <img class=" mec" src="/assets/images/logo/mec_logo.png" alt="" >
+                        </a>
                     </div>
                     <div class="rounded-social-buttons">
-                        <a class="social-button facebook " href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook
-fa fa-instagram
-fa fa-linkedin"></i></a>
-                        <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fa fa-facebook
-fa fa-instagram
-fa fa-linkedin"></i></a>
-                        <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
-                        <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-facebook
-fa fa-instagram
-fa fa-linkedin"></i></a>  
+                        <a class="social-button facebook " href="https://www.facebook.com/excelmec/" target="_blank"><i class="fa fa-facebook "></i></a>
+                        <a class="social-button instagram" href="https://www.instagram.com/excelmec/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a class="social-button twitter" href="https://www.twitter.com/excelmec/" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a class="social-button youtube" href="https://www.youtube.com/excelmec/" target="_blank"><i class="fa fa-youtube"></i></a>
+                        <a class="social-button linkedin" href="https://www.linkedin.com/company/excelmec" target="_blank"><i class="fa fa-linkedin"></i></a>  
                     </div>
+                    <div class="footer-excel ">
+                        <a href="https://www.excelmec.org/">
+                         <img class=" excel" src="/assets/images/logo/logo.svg" alt="" >
+                        </a>
+                    </div>
+                   
                     
                 </div>
             </div>
@@ -593,6 +577,7 @@ fa fa-linkedin"></i></a>
         </div>
         <!-- footer widget -->
     </footer>
+
 
     <!--====== FOOTER PART ENDS ======-->
 
@@ -610,6 +595,48 @@ fa fa-linkedin"></i></a>
       <script src="assets/js/goodhealth.js"></script>
       <script src="assets/js/partcipate.js"></script>
       
+       <!--============ auto-carousel =============-->
       
+       <script type="text/javascript">
+        $('.slider').slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1500,
+          dots:true,
+          centerMode:true,
+          prevArrow:'<i class="fa fa-arrow-left  left_arrow" style="font-size:25px">',
+          nextArrow:'<i class="fa fa-arrow-right right_arrow" style="font-size:25px">',
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+            
+        ]
+        });
+        
+        </script>
+
    </body>
 </html>
+

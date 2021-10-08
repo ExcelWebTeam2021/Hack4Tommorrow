@@ -979,6 +979,66 @@ p {
    width: 35px;
    background-color: #0a0a28;
 }
+/* ----------auto-carousel----------- */
+
+i{
+   font-size: 18px;
+ }
+ .left_arrow{
+   position: absolute;
+   top: 30%;
+   left: -20px;
+   
+   height: 40px;
+   width: 40px;
+   background-color: #007bb5;
+   border-radius: 50%;
+   color: #fff;
+   
+   align-content: center;	
+   padding-left: 5px;	
+   padding-top: 6px;	
+   z-index: 99;	
+   	
+ cursor: pointer;	
+ transition: 0.3s;	
+ 	
+ }	
+ .left_arrow:hover{	
+   background: darkblue;	
+ }	
+ .right_arrow{	
+   position: absolute;	
+   top: 30%;	
+   right: -20px;	
+   	
+   height: 40px;	
+   width: 40px;	
+   background-color: #007bb5;	
+   border-radius: 50%;	
+   color: #fff;	
+   	
+   align-content: center;	
+   padding-left: 9px;	
+   padding-top: 6px;	
+        	
+   z-index: 99;	
+   	
+ cursor: pointer;	
+ transition: 0.3s;	
+ 	
+ }	
+ .right_arrow:hover{	
+   background: darkblue;	
+ }	
+ @media (max-width: 767px) {	
+   .left_arrow{	
+      left: -5px;	
+   }	
+   .right_arrow{	
+      right:-5px;	
+   }	
+}	
 
 /*===========================
         6.TEAM css 
@@ -1224,17 +1284,53 @@ p {
 /*===========================
        10.FOOTER css 
 ===========================*/
+
 .footer-widget {
    background-color: #0f0f20;
    font-size: 25px;
-   padding-bottom: 5%;
+padding-top:25px ;
+   padding-bottom: 25px;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+}
+.footer-mec{
+   float: left;
+}
+
+.footer-mec img{
+width: 120px;
+}
+.footer-excel{
+   float: right;
+}
+.footer-excel img{
+   width: 40px;
 }
 
 @media (max-width: 767px) {
    .footer-widget {
-      padding-top: 30px;
-      padding-bottom: 80px;
+      padding-top: 50px;
+      padding-bottom: 50px;
    }
+   .rounded-social-buttons{
+      margin-top: 50px;
+    display: block;
+    margin-left: 26%;
+    margin-right: 20%;
+    padding-bottom: 20px;
+   }
+   .footer-mec img{
+      padding-top:5px ;
+      width: 80px;
+   }
+   .footer-excel img{
+      padding-top:0px ;
+      width: 50px;
+      height: 50px;
+   }
+
+  
 }
 
 .footer-logo a img {
@@ -1317,6 +1413,8 @@ p {
 }
 
 .rounded-social-buttons {
+   display: inline-block;
+  margin: 0 auto;
    text-align: center;
 }
 
@@ -1324,8 +1422,8 @@ p {
    display: inline-block;
    position: relative;
    cursor: pointer;
-   width: 3.125rem;
-   height: 3.125rem;
+   width: 3rem;
+   height: 3rem;
    border: 0.125rem solid transparent;
    padding: 0;
    text-decoration: none;
