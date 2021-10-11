@@ -1533,3 +1533,89 @@ width: 120px;
    background: #fefefe;
    border-color: #125688;
 }
+
+
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+
+
+h1{
+	font-weight: 800;
+	font-size: 3em;
+}
+
+.subtitle{
+	font-size: 1.25em;
+	opacity: 0.65;
+}
+
+.card-block{
+	height: 250px;
+	background-color: #fff;
+	border: none;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+| 
+  &:hover{
+		 transform: translateY(-5px);
+		box-shadow: none;
+	}
+}
+.card-1{
+	background-color: #4158D0;
+  
+background-image:url(https://imgr.search.brave.com/58e9Xnu3DgNulJxWONWrJEbtFL2TNnIZqmEywV6RL6c/fit/1200/1200/ce/1/aHR0cDovL2ltZ3Mu/YWJkdXplZWRvLmNv/bS9maWxlcy9mcmFu/Y29pcy93YWxscGFw/ZXJzL3dwdzM5OC93/cHctam9zaHVhLXNv/cnRpbm8uanBn)
+}
+
+.card-2{
+	background-color: #0093E9;
+background-image: url(https://imgr.search.brave.com/NZwC8NAAg2KwnpR_y0P7lQqKmbiMX-Xv1J8c_-6oSck/fit/750/493/ce/1/aHR0cHM6Ly9hbGxz/dXBwb3J0LmluL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE5LzEw/L0NSRUQuanBn)
+}
+
+.card-3{
+	background-color: #00DBDE;
+background-image: url(https://imgr.search.brave.com/LMOqLV3JIDID3dvnVxj6BgeIRSP0wJ2e54j_nb8vRXw/fit/1200/1000/ce/1/aHR0cHM6Ly9icm93/bnBvaW50cy5jb20v/Y29udGVudC9pbWFn/ZXMvMjAyMC8wOC9D/UkVELVJlbnQtVUkt/T25lLmpwZw)
+}
+
+.card-4{
+	background-color: #FBAB7E;
+background-image: url(https://imgr.search.brave.com/SHXQmdm_md19is_vt4jX1BrSn7llmaqHdrWuj88uagA/fit/1200/1000/ce/1/aHR0cHM6Ly9icm93/bnBvaW50cy5jb20v/Y29udGVudC9pbWFn/ZXMvMjAyMC8wNC9D/UkVELVN0YXNoLVVJ/LUZvdXIuanBn)
+}
+
+.card-5{
+	background-color: #85FFBD;
+background-image: url(https://imgr.search.brave.com/i74VKVQJSdWwjYVM3NHjqKhDJOUQ35xMMB7dYKlwheo/fit/1200/1200/ce/1/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzk1NzAy/Mi9zY3JlZW5zaG90/cy83MTM0MjEwL2Nh/cmQtZGV0YWlsc180/eC5wbmc)
+}
+
+.card-6{
+	background-color: #FA8BFF;
+background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+
+.card-7{
+	background-color: #FA8BFF;
+background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+
+.card-8{
+	background-color: #FBDA61;
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+}
+
+.card-9{
+	background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.card-10{
+	background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+}
+
+
+
+
