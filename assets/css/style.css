@@ -890,21 +890,21 @@ p {
       5.SPONSORS css 
 ===========================*/
 @media (max-width: 767px) {
-   .project-area {
+   .sponser-area {
       padding-top: 75px;
       padding-bottom: 80px;
    }
 }
 
-.single-project {
+.single-sponser {
    position: relative;
 }
 
-.single-project .project-image {
+.single-sponser .sponser-image {
    position: relative;
 }
 
-.single-project .project-image::before {
+.single-sponser .sponser-image::before {
    position: absolute;
    content: "";
    width: 100%;
@@ -915,7 +915,7 @@ p {
    transition: all 0.4s ease-out 0s;
 }
 
-.single-project .project-content {
+.single-sponser .sponser-content {
    position: absolute;
    bottom: 0;
    left: 0;
@@ -926,7 +926,7 @@ p {
    opacity: 0;
 }
 
-.single-project .project-content .project-title {
+.single-sponser .sponser-content .sponser-title {
    font-size: 22px;
    font-weight: 600;
    font-family: "Barlow", sans-serif;
@@ -935,7 +935,7 @@ p {
    margin-left: 60px;
 }
 
-.single-project .project-content .project-title::before {
+.single-sponser .sponser-content .sponser-title::before {
    position: absolute;
    content: "";
    width: 50px;
@@ -945,26 +945,26 @@ p {
    left: -60px;
 }
 
-.single-project:hover .project-image::before {
+.single-sponser:hover .sponser-image::before {
    opacity: 1;
 }
 
-.single-project:hover .project-content {
+.single-sponser:hover .sponser-content {
    opacity: 1;
    transform: translateY(0%);
 }
 
-.project-active .slick-dots {
+.sponser-active .slick-dots {
    text-align: center;
    margin-top: 50px;
 }
 
-.project-active .slick-dots li {
+.sponser-active .slick-dots li {
    display: inline-block;
    margin: 0 7px;
 }
 
-.project-active .slick-dots li button {
+.sponser-active .slick-dots li button {
    width: 25px;
    height: 15px;
    border-radius: 50px;
@@ -975,7 +975,7 @@ p {
    cursor: pointer;
 }
 
-.project-active .slick-dots li.slick-active button {
+.sponser-active .slick-dots li.slick-active button {
    width: 35px;
    background-color: #0a0a28;
 }
