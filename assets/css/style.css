@@ -142,7 +142,7 @@ p {
 
 .main-content .about-welcome {
    font-size: 24px;
-   color: #0a0a28;
+   color: #6C63FF;
    opacity: 0.75;
    text-transform: uppercase;
 }
@@ -150,12 +150,14 @@ p {
 @media (max-width: 767px) {
    .main-content .about-welcome {
       font-size: 18px;
+      
    }
 }
 
 .main-content .main-title {
    font-size: 35px;
    font-family: "Open Sans Bold", sans-serif;
+   color: #3F3D56;
 }
 
 @media (max-width: 767px) {
