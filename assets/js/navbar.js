@@ -1,10 +1,9 @@
-$(document).ready(function() {
-    $(window).scroll(function() {
-      if($(this).scrollTop() < $("#green").height()){
+$(document).ready(function () {
+   $(window).scroll(function () {
+      if ($(this).scrollTop() < $("#landing-page").height()) {
          $(".navbar").removeClass("bg-dark");
-      }
-      else{
+      } else {
          $(".navbar").addClass("bg-dark");
       }
-    });
-  });
+   });
+});

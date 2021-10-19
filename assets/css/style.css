@@ -6,26 +6,25 @@ body {
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
- 
-  background-image: none;
+   height: 100px;
+   width: 100px;
+   outline: black;
+   background-size: 100%, 100%;
+   border-radius: 50%;
+
+   background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: rgb(28, 4, 66);
+.carousel-control-next-icon:after {
+   content: ">";
+   font-size: 55px;
+   color: rgb(28, 4, 66);
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color:rgb(28, 4, 66);
+   content: "<";
+   font-size: 55px;
+   color: rgb(28, 4, 66);
 }
 
 html,
@@ -129,43 +128,62 @@ p {
    z-index: 99999;
    position: fixed;
 }
+/* Navbar */
 
+.navbar-expand-lg .navbar-collapse {
+   display: flex !important;
+   justify-content: space-around;
+   flex-basis: auto;
+}
+.nav-link {
+   font-size: 18px;
+}
+.navbar-brand {
+   width: 35px;
+   height: 50px;
+}
 /*===========================
    1. Main page
 ===========================*/
 
 .landing-page {
-   background: #0a0a28;
-   min-width: 100%;
-   min-height: 100vh;
-   z-index: 1;
+   background: #050505;
+   width: 100vw;
+   height: 100vh;
 }
-.landing-page h1 {
-   float: left;
+.landingpage-text {
+   background-color: #050505;
+   display: block;
+   padding-top: 6%;
    text-align: center;
-   color: #fff;
-   position: absolute;
-   top: 25%;
-   bottom: 0;
-   left: 5%;
-   right: 0;
-   padding-right: 50%;
-   z-index: 20 !important;
-   max-width: 90%;
-   width: 100%;
-   height: 50px;
-   font-size: 3rem;
-   text-shadow: 2px 2px 6px #343a40;
-   opacity: 1 !important;
 }
-
+.landingpage-heading1 {
+   margin: auto;
+   font-size: 90px;
+   letter-spacing: 0.05em;
+   color: #050505;
+   text-shadow: -1px -1px 0 #6c63ff, 1px -1px 0 #6c63ff, -1px 1px 0 #6c63ff, 1px 1px 0 #6c63ff;
+}
+.landingpage-heading2 {
+   color: #fff;
+   font-size: 90px;
+   letter-spacing: 0.05em;
+}
+.landingpage-description {
+   color: rgba(255, 255, 255, 0.85);
+   font-size: 22px;
+   margin-top: 7%;
+}
+.landingpage_girl {
+   margin-top: 7%;
+}
 /*===========================
     3.ABOUT css 
 ===========================*/
 
 .main-content .about-welcome {
    font-size: 24px;
-   color: #6C63FF;
+   color: #6c63ff;
    opacity: 0.75;
    text-transform: uppercase;
 }
@@ -173,14 +191,13 @@ p {
 @media (max-width: 767px) {
    .main-content .about-welcome {
       font-size: 18px;
-      
    }
 }
 
 .main-content .main-title {
    font-size: 35px;
    font-family: "Open Sans Bold", sans-serif;
-   color: #3F3D56;
+   color: #3f3d56;
 }
 
 @media (max-width: 767px) {
@@ -360,7 +377,7 @@ i {
    align-content: center;
    padding-left: 5px;
    padding-top: 6px;
-   z-index: 99;
+   z-index: 40;
 
    cursor: pointer;
    transition: 0.3s;
@@ -956,15 +973,15 @@ i {
    border-color: #125688;
 }
 
-.navbar{
+.navbar {
    position: fixed;
-   width:100%;
+   width: 100%;
    transition: background-color 1s;
-   z-index: 100;
- 
- }
- 
- .rect{
-   width:100%;
-   height:100vh;
- }
+   z-index: 30;
+}
+
+.rect {
+   width: 100%;
+   height: 100vh;
+}
+
