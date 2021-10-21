@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Poppins&display=swap");
+
 .heading {
-   font-size: 38px;
+   font-size: 45px;
    font-family: "Poppins", sans-serif;
    color: #3f3d56;
-   font-weight: 700;
+   font-weight: 900;
 }
 
 .content {
@@ -123,6 +124,9 @@ img {
 }
 
 /* Rewards */
+.rewards {
+   margin: 5%;
+}
 .rewards-text {
    margin: 10%;
 }
@@ -285,16 +289,6 @@ i {
 /*===========================
         6.TEAM css 
 ===========================*/
-@media (max-width: 767px) {
-   .team-area {
-      padding-top: 75px;
-      padding-bottom: 80px;
-   }
-}
-
-.team .team-image img {
-   width: 100%;
-}
 
 .team .team-content {
    width: 80%;
