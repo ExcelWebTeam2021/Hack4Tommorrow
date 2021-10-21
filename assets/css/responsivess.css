@@ -1,13 +1,15 @@
 @media (min-device-width: 20px) and (max-device-width: 600px) {
    .heading {
-      font-size: 28px;
+      font-size: 30px;
       font-weight: 600;
+      text-align: center;
    }
 
    .content {
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 400;
       line-height: 24px;
+      text-align: center;
    }
 
    .larger-screen-img {
@@ -23,17 +25,18 @@
       width: 100vw;
       height: 140vh;
    }
+
    .landingpage-heading1,
    .landingpage-heading2 {
       margin: auto;
-      font-size: 3rem;
+      font-size: 48px;
    }
    .landingpage-heading2 {
       text-shadow: -1px -1px 0 #6c63ff, 1px -1px 0 #8c88e2, -1px 1px 0 #6c63ff, 1px 1px 0 #6c63ff;
    }
 
    .landingpage-description {
-      font-size: 15px;
+      font-size: 16px;
    }
 
    .time-div {
@@ -54,9 +57,28 @@
       padding-top: 75px;
       padding-bottom: 80px;
    }
+   .rewards-list {
+      text-align: left;
+   }
    .sponsers-area {
       padding-top: 75px;
       padding-bottom: 80px;
+      padding-right: 8%;
+      padding-left: 8%;
+   }
+   .right_arrow,
+   .left_arrow {
+      height: 30px;
+      width: 30px;
+      font-size: 16px !important;
+   }
+   .left_arrow {
+      left: -10px;
+      top: 25%;
+   }
+   .right_arrow {
+      right: -10px;
+      top: 25%;
    }
    .team-area {
       padding-top: 75px;
@@ -67,6 +89,7 @@
    .heading {
       font-size: 33px;
       font-weight: 600;
+      text-align: center;
    }
 
    .content {
@@ -109,6 +132,9 @@
       display: block;
       margin-left: auto;
       margin-right: auto;
+   }
+   .rewards-list {
+      text-align: left;
    }
    .team-area {
       padding-top: 75px;
