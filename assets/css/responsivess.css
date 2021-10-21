@@ -1,0 +1,76 @@
+@media (min-device-width: 20px) and (max-device-width: 800px) {
+   .heading {
+      font-size: 28px;
+      font-weight: 600;
+   }
+
+   .content {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+   }
+
+   .larger-screen-img {
+      display: none;
+   }
+   .smaller-screen-img {
+      display: block;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .landing-page {
+      width: 100vw;
+      height: 140vh;
+   }
+   .landingpage-heading1,
+   .landingpage-heading2 {
+      margin: auto;
+      font-size: 3rem;
+   }
+   .landingpage-heading2 {
+      text-shadow: -1px -1px 0 #6c63ff, 1px -1px 0 #8c88e2, -1px 1px 0 #6c63ff, 1px 1px 0 #6c63ff;
+   }
+
+   .landingpage-description {
+      font-size: 15px;
+   }
+
+   .time-div {
+      width: 80%;
+   }
+   .timer,
+   .timer span {
+      font-size: 1rem;
+   }
+   /* --------------------------------------------- */
+   #about {
+      margin-top: 5%;
+   }
+   .problem-statements {
+      padding: 30px 10px;
+   }
+   .problem-statements-area {
+      padding-top: 75px;
+      padding-bottom: 80px;
+   }
+   .sponsers-area {
+      padding-top: 75px;
+      padding-bottom: 80px;
+   }
+}
+
+@media (min-device-width: 800px) and (max-device-width: 1800px) {
+   .larger-screen-img {
+      display: block;
+   }
+   .smaller-screen-img {
+      display: none;
+   }
+   .problem-statements {
+      padding: 30px 10px;
+   }
+   .team .team-content {
+      padding: 30px 0;
+   }
+}

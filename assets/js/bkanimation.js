@@ -1,7 +1,7 @@
 "use strict";
 
 var app = {
-   chars: ["1", "0", "#", ";", "''", ";", "!", "1", "0"],
+   chars: ["1", "0", "#", ";", "!", "1", "0"],
 
    init: function () {
       app.container = document.createElement("div");

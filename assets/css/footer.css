@@ -4,6 +4,7 @@
    font-size: 25px;
    padding-top: 25px;
    padding-bottom: 25px;
+   margin-top: 5%;
 }
 .footer-mec {
    float: left;
@@ -89,7 +90,7 @@
    text-align: center;
    border-radius: 50%;
    background-color: #fff5f1;
-   color: #646464;
+   color: #0d1117;
    font-size: 16px;
    box-shadow: 0px 5px 21px 0px rgba(254, 119, 101, 0.4);
    transition: all 0.4s ease-out 0s;
@@ -113,7 +114,6 @@
 .footer-link ul li a {
    font-size: 16px;
    color: #646464;
-   font-family: "Hind", sans-serif;
    transition: all 0.4s ease-out 0s;
 }
 
@@ -126,8 +126,6 @@
    display: block;
 
    margin: 4.6px auto;
-   /* margin-left: auto;
-  margin-right: auto; */
 }
 
 #footer .row a i .icon {
@@ -144,17 +142,15 @@
    display: inline-block;
    position: relative;
    cursor: pointer;
-   width: 2.5rem;
-   height: 2.5rem;
+   width: 2.3rem;
+   height: 2.3rem;
    border: 0.125rem solid transparent;
-   padding-bottom: 7px;
    text-decoration: none;
    text-align: center;
    color: #fefefe;
    filter: grayscale(1);
-   font-size: 1.5625rem;
+   font-size: 1rem;
    font-weight: normal;
-   line-height: 2em;
    border-radius: 1.6875rem;
    transition: all 0.5s ease;
    margin-right: 0.25rem;
@@ -168,11 +164,11 @@
 }
 
 .rounded-social-buttons .fa-twitter,
-.fa-facebook-f,
+.fa-facebook,
 .fa-linkedin,
 .fa-youtube,
 .fa-instagram {
-   font-size: 25px;
+   font-size: 20px !important;
 }
 
 .rounded-social-buttons .social-button.facebook {

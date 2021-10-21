@@ -1,0 +1,113 @@
+/*===========================
+   1. Main page
+===========================*/
+
+.landing-page {
+   background: #050505;
+   width: 100vw;
+   height: 100vh;
+   padding-top: 5%;
+}
+.landingpage-text {
+   display: block;
+   text-align: center;
+}
+.landingpage-maintext {
+   z-index: 500 !important;
+}
+.landingpage-heading1 {
+   margin: auto;
+   font-size: 85px;
+   letter-spacing: 0.05em;
+   color: rgb(241, 241, 241);
+   text-shadow: 1px 1px #140f72;
+}
+.landingpage-heading2 {
+   font-size: 85px;
+   letter-spacing: 0.05em;
+   color: #050505;
+   text-shadow: -2px -2px 0 #6c63ff, 2px -2px 0 #8c88e2, -1px 1px 0 #6c63ff, 2px 2px 0 #6c63ff;
+}
+.landingpage-description {
+   color: rgb(129, 127, 127);
+   font-size: 20px;
+   width: 60%;
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   z-index: 500 !important;
+   font-family: "Poppins", sans-serif;
+}
+
+.landingpage_girl {
+   z-index: 500 !important;
+}
+.time-div {
+   color: #d4d3d3;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.timer {
+   display: inline-block;
+   font-size: 1em;
+   list-style-type: none;
+   padding: 1em;
+   text-transform: uppercase;
+}
+
+.timer span {
+   display: block;
+   font-size: 1.6rem;
+}
+
+.animation-container {
+   z-index: 1;
+   background: #fff;
+   z-index: 0.5;
+}
+
+.animation-container span {
+   font-family: "Barlow", sans-serif;
+   position: absolute;
+   color: #dcdafa;
+   display: block;
+   font-size: 18px;
+   text-shadow: 0 0 1px white;
+   user-select: none;
+   pointer-events: none;
+   cursor: default;
+   z-index: 0.2 !important;
+   opacity: 0;
+   top: 0;
+   will-change: transform, opacity;
+   animation-timing-function: ease-out;
+   animation-name: move;
+}
+
+@keyframes move {
+   0% {
+      opacity: 0;
+      top: 100%;
+   }
+   25% {
+      opacity: 1;
+   }
+   50% {
+      opacity: 1;
+   }
+   75% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 0;
+      transform: none;
+   }
+}
+.apply-button {
+   margin-top: 5%;
+}
+.apply-svg {
+   width: 30px;
+}
