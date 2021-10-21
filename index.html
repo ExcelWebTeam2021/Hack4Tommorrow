@@ -18,11 +18,10 @@
       <link rel="stylesheet" href="assets/css/aos.css" />
       <!--====== Slick css ======-->
       <link rel="stylesheet" href="assets/css/slick.css" />
-      <!--====== Default css ======-->
-      <link rel="stylesheet" href="assets/css/default.css" />
       <!--====== Style css ======-->
       <link rel="stylesheet" href="assets/css/style.css" />
-      <link rel="stylesheet" href="assets/css/landingpage_animation.css" />
+  
+      <link rel="stylesheet" href="assets/css/default.css" />
       <link rel="stylesheet" href="assets/css/footer.css" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
       <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
@@ -31,75 +30,68 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
       <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
       <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/ScrollLottie.js"></script>
-
-
-
-     
    </head>
    <body>
-   
-  
-
-       
       <!--====== PRELOADER PART START ======-->
       <div class="preloader"></div>
       <!--====== Landing page START ======-->
-    
+   
+
+      <!-- Navbar -->
       <header class="header">
-         <div class="landing-page row" id="landing-page">
+         <div class="landing-page row " id="landing-page">
+            <div class="col-md-7 col-sm-6 landingpage-text">
+               <div>
+                <div class="landingpage-maintext">
+                  <h1 class="landingpage-heading1  wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                     Hack for 
+                  </h1>
+                  <h1 class="landingpage-heading2  wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">tomorrow</h1>
+                  <p class="landingpage-description wow fadeInUp content"> 
+                     Are you ready to turn caffeine into code ? lorem30lorem10ocode ? lorem30lorem10orem
+                  </p>
+               </div>
             
-            <div class="col-md-7 landingpage-text">
- <div>              <h1 class="landingpage-heading1  wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-   Hack for </h1>
-   <h1 class="landingpage-heading2  wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">tomorrow</h1></div>
-               <p class="landingpage-description wow fadeInUp"> 
-                  Are you ready to turn caffeine into code ? lorem30lorem10ocode ? lorem30lorem10orem</p>
-              <button class="btn btn-primary btn-sm">Apply with devfolio</button>
-           
-           
-           
-           
-           
-           
-           
+                </div>
+               <div class="container time-div">
+                  <div id="countdown">
+                     <ul>
+                        <li class="timer"><span id="days"></span>days</li>
+                        <li class="timer"><span id="hours"></span>Hours</li>
+                        <li class="timer"><span id="minutes"></span>Minutes</li>
+                        <li class="timer"><span id="seconds"></span>Seconds</li>
+                     </ul>
+                  </div>
+               </div>
+               <button class="btn btn-primary apply-button btn-lg" >
+               <img src="assets/images/sponsers/devfolio.svg" class='apply-svg'>
+               <span id="apply-button-title">Apply with Devfolio</span>
+               </button>
             </div>
-                  <div class="col-md-5">
-                 
-                  <img class="img-responsive landingpage_girl" src="assets/images/landingpage_girl.svg"  alt=""></div>
+            <div class="col-md-5 col-sm-6">
+               <img class="img-responsive landingpage_girl" src="assets/images/landingpage_girl.svg"  alt="">
+            </div>
          </div>
-         <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-    </ul>
+       
       </header>
       <!--====== Landing page1 ENDS ======-->
       <!--====== ABOUT PART START ======-->
       <section id="about">
          <div class="container">
             <div class="row">
-               <div class="col-lg-5">
-                  
+               <div class="col-md-5">
                   <div id="initial_idea">
                   </div>
                </div>
-               <div class="col-lg-6">
+               <div class="col-md-6">
                   <div class="main-content mt-45">
-                     <h3 class="main-title mt-10">Dream it. Build it.</h3>
-                     <p class="main-content" >
+                     <h3 class="main-title mt-10 heading">ABOUT</h3>
+                     <p class="main-content content" >
                         At MOZOHACK, you get the perfect environment to execute all your great ideas, with some of the best developers from all over the country to guide you. MOZOHACK is a hackathon to get you started. And a hackathon to get you further. It is the shortest distance between a great idea and a great result.
                         <br>
                         <br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                      </p>
-                     At MOZOHACK, you get the perfect environment to execute all your great ideas, with some of the best developers from all over the country to guide you. MOZOHACK is a hackathon to get you started. And a hackathon to get you further. It is the shortest distance between a great idea and a great result.
-                  </div>
+                    </div>
                   <!-- about content -->
                </div>
             </div>
@@ -110,39 +102,39 @@
       <section id="whyparticipate" >
          <div class="container">
             <div class="row">
-               <div class="col-lg-6">
+               <div class="col-md-6">
                   <div class="main-content mt-45">
-                     <h3 class="main-title mt-10">Why paritcipate</h3>
+                     <h3 class="main-title mt-10 heading">Why paritcipate</h3>
                      <div id="carouselExampleIndicators" class="carousel slide .active" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img class="d-block w-100" src="https://image.shutterstock.com/image-vector/simple-web-icon-vector-address-260nw-1147493126.jpg" alt="First slide">
-                              </div>
-                              <div class="carousel-item">
-                                <img class="d-block w-100" src="https://image.shutterstock.com/image-vector/simple-web-icon-vector-address-260nw-1147493126.jpg" alt="Second slide">
-                              </div>
-                              <div class="carousel-item">
-                                <img class="d-block w-100" src="https://n4.sdlcdn.com/imgs/b/n/u/An-Address-to-the-Principal-SDL777618963-1-bbaa1.jpg" alt="Third slide">
-                              </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="sr-only">Next</span>
-                            </a>
-                            </div>
+                        <ol class="carousel-indicators">
+                           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                           <div class="carousel-item active">
+                              <img class="d-block w-100" src="https://image.shutterstock.com/image-vector/simple-web-icon-vector-address-260nw-1147493126.jpg" alt="First slide">
+                           </div>
+                           <div class="carousel-item">
+                              <img class="d-block w-100" src="https://image.shutterstock.com/image-vector/simple-web-icon-vector-address-260nw-1147493126.jpg" alt="Second slide">
+                           </div>
+                           <div class="carousel-item">
+                              <img class="d-block w-100" src="https://n4.sdlcdn.com/imgs/b/n/u/An-Address-to-the-Principal-SDL777618963-1-bbaa1.jpg" alt="Third slide">
+                           </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                        </a>
+                     </div>
                   </div>
                   <!-- about content -->
                </div>
-               <div class="col-lg-6">
+               <div class="col-md-6">
                   <div id="execution">
                   </div>
                </div>
@@ -151,84 +143,84 @@
       </section>
       <!--====== WHY paritcipate ENDS ======-->
       <!--====== problem-statementS PART START ======-->
-      <section id="problem-statement" class="problem-statements-area pt-125 pb-130 " style="background:#f0e9f5">
+      <section id="problem-statement" class="problem-statements-area pt-125 pb-130 " style="background:#e9e9f5">
          <div class="container">
             <div class="row justify-content-center">
-               <div class="col-lg-6">
+               <div class="col-md-6">
                   <div class="section-title text-center pb-20">
-                     <h5 class="sub-title mb-15">Problem Statements</h5>
-                     <h2 class="title">Tracks</h2>
+                    
+                     <h2 class="title heading ">Tracks</h2>
                   </div>
                   <!-- section title -->
                </div>
             </div>
-            <div class="row justify-content-center">
-               <div class="col-lg-4 col-md-6 col-sm-8">
+            <div class="row justify-content-center content">
+               <div class="col-md-4 col-sm-8">
                   <div class="problem-statements text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.2s">
                      <div class="problem-statements-icon">
                         <i class="lni-paint-roller"></i>
                      </div>
-                     <div class="problem-statements-content mt-15">
+                     <div class="problem-statements-content">
                         <h4 class="problem-statements-title">Improving Governance</h4>
                         <p class="mt-20">Mauris aliquam, turpis sed mattis placerat, justo risus pellentesque quam, id finibus risus arcu eget neque.</p>
                      </div>
                   </div>
                   <!-- single problem-statements -->
                </div>
-               <div class="col-lg-4 col-md-6 col-sm-8">
+               <div class="col-md-4 col-sm-8">
                   <div class="problem-statements text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.6s">
                      <div class="problem-statements-icon">
                         <i class="lni-blackboard"></i>
                      </div>
-                     <div class="problem-statements-content mt-15">
+                     <div class="problem-statements-content">
                         <h4 class="problem-statements-title">sponsers: Rebuild Kerala</h4>
                         <p class="mt-20">Mauris aliquam, turpis sed mattis placerat, justo risus pellentesque quam, id finibus risus arcu eget neque.</p>
                      </div>
                   </div>
                   <!-- single problem-statements -->
                </div>
-               <div class="col-lg-4 col-md-6 col-sm-8">
+               <div class="col-md-4 col-sm-8">
                   <div class="problem-statements text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="1.0s">
                      <div class="problem-statements-icon">
                         <i class="lni-home"></i>
                      </div>
-                     <div class="problem-statements-content mt-15">
+                     <div class="problem-statements-content">
                         <h4 class="problem-statements-title">Citizen Safety</h4>
                         <p class="mt-20">Mauris aliquam, turpis sed mattis placerat, justo risus pellentesque quam, id finibus risus arcu eget neque.</p>
                      </div>
                   </div>
                   <!-- single problem-statements -->
                </div>
-               <div class="col-lg-4 col-md-6 col-sm-8">
+               <div class="col-md-4 col-sm-8">
                   <div class="problem-statements text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.2s">
                      <div class="problem-statements-icon">
                         <i class="lni-briefcase"></i>
                      </div>
-                     <div class="problem-statements-content mt-15">
+                     <div class="problem-statements-content">
                         <h4 class="problem-statements-title">sponsers: Rebuild Kerala</h4>
                         <p class="mt-20">Mauris aliquam, turpis sed mattis placerat, justo risus pellentesque quam, id finibus risus arcu eget neque.</p>
                      </div>
                   </div>
                   <!-- single problem-statements -->
                </div>
-               <div class="col-lg-4 col-md-6 col-sm-8">
+               <div class="col-md-4 col-sm-8">
                   <div class="problem-statements text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.6s">
                      <div class="problem-statements-icon">
                         <i class="lni-handshake"></i>
                      </div>
-                     <div class="problem-statements-content mt-15">
+                     <div class="problem-statements-content ">
                         <h4 class="problem-statements-title">Citizen Safety</h4>
                         <p class="mt-20">Mauris aliquam, turpis sed mattis placerat, justo risus pellentesque quam, id finibus risus arcu eget neque.</p>
                      </div>
                   </div>
                   <!-- single problem-statements -->
                </div>
-               <div class="col-lg-4 col-md-6 col-sm-8">
+               <div class="col-md-4 col-sm-8">
                   <div class="problem-statements text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="1.0s">
                      <div class="problem-statements-icon">
                         <i class="lni-grow"></i>
                      </div>
-                     <div class="problem-statements-content mt-15">
+                     <div class="problem-statements-content">
                         <h4 class="problem-statements-title">sponsers: Rebuild Kerala</h4>
                         <p class="mt-20">Mauris aliquam, turpis sed mattis placerat, justo risus pellentesque quam, id finibus risus arcu eget neque.</p>
                      </div>
@@ -245,9 +237,9 @@
             <div class="row">
                <div class="col-md-6">
                   <div class="main-content mt-45">
-                     <h3 class="main-title mt-10">Rewards</h3>
+                     <h3 class="main-title mt-10 heading">Rewards</h3>
                      <p class="mt-25" >
-                     <ul>
+                     <ul class="content">
                         <li>SGDGDFGDGDGF</li>
                         <li>sqeqeqesgssDFGDGDGF</li>
                         <li>qwaqasddaasfsd</li>
@@ -275,10 +267,10 @@
       <section id="sponsers" class="sponsers-area pt-125 pb-130">
          <div class="container">
             <div class="row justify-content-center">
-               <div class="col-lg-6">
+               <div class="col-md-6">
                   <div class="section-title text-center pb-50">
-                     <h5 class="sub-title mb-15">Featured Works</h5>
-                     <h2 class="title">Our sponsers</h2>
+            
+                     <h2 class="title heading">Our sponsers</h2>
                   </div>
                   <!-- section title -->
                </div>
@@ -286,7 +278,7 @@
          </div>
          <div class="container">
             <div class="row sponsers-active slider">
-               <div class="col-lg-4">
+               <div class="col-md-4">
                   <div class="sponsers">
                      <div class="sponsers-image">
                         <img src="assets/images/sponsers/p-1.png" alt="sponsers">
@@ -296,7 +288,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-4">
+               <div class="col-md-4">
                   <div class="sponsers">
                      <div class="sponsers-image">
                         <img src="assets/images/sponsers/p-1.png" alt="sponsers">
@@ -306,7 +298,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-4">
+               <div class="col-md-4">
                   <div class="sponsers">
                      <div class="sponsers-image">
                         <img src="assets/images/sponsers/p-1.png" alt="sponsers">
@@ -316,7 +308,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-4">
+               <div class="col-md-4">
                   <div class="sponsers">
                      <div class="sponsers-image">
                         <img src="assets/images/sponsers/p-1.png" alt="sponsers">
@@ -326,27 +318,8 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-4">
-                  <div class="sponsers">
-                     <div class="sponsers-image">
-                        <img src="assets/images/sponsers/p-1.png" alt="sponsers">
-                     </div>
-                     <div class="sponsers-content">
-                        <a class="sponsers-title" href="#">Home Interior Design</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4">
-                  <div class="sponsers">
-                     <div class="sponsers-image">
-                        <img src="assets/images/sponsers/p-1.png" alt="sponsers">
-                     </div>
-                     <div class="sponsers-content">
-                        <a class="sponsers-title" href="#">Home Interior Design</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4">
+           
+               <div class="col-md-4">
                   <div class="sponsers">
                      <div class="sponsers-image">
                         <img src="assets/images/sponsers/p-1.png" alt="sponsers">
@@ -363,7 +336,7 @@
       <section id="rewards" >
          <div class="container">
             <div class="row">
-               <div class="col-md-10">
+               <div class="col-md-10 text-center">
                   <div id="showcase">
                   </div>
                </div>
@@ -374,17 +347,17 @@
       <section id="team" class="team-area pt-125 pb-130 " style="background:#f0e9f5">
          <div class="container">
             <div class="row justify-content-center">
-               <div class="col-lg-6">
+               <div class="col-md-6">
                   <div class="section-title text-center pb-20">
-                     <h5 class="sub-title mb-15">Something else</h5>
-                     <h2 class="title">Meet The Teams</h2>
+                    
+                     <h2 class="title heading">Meet The Teams</h2>
                   </div>
                   <!-- section title -->
                </div>
             </div>
-            <div class="row">
-                <!-- team MEMBER 1 -->
-               <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="row content">
+               <!-- team MEMBER 1 -->
+               <div class="col-md-3  col-sm-6">
                   <div class="team text-center mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
                      <div class="team-image">
                         <img src="assets/images/team/team-1.jpg" alt="Team">
@@ -402,7 +375,7 @@
                   <!-- single team -->
                </div>
                <!-- team MEMBER 2 -->
-               <div class="col-lg-3 col-md-6 col-sm-6">
+               <div class="col-md-3  col-sm-6">
                   <div class="team text-center mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.8s">
                      <div class="team-image">
                         <img src="assets/images/team/team-3.jpg" alt="Team">
@@ -419,8 +392,8 @@
                   </div>
                   <!-- single team -->
                </div>
-              <!-- team MEMBER 3 -->
-               <div class="col-lg-3 col-md-6 col-sm-6">
+               <!-- team MEMBER 3 -->
+               <div class="col-md-3  col-sm-6">
                   <div class="team text-center mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.2s">
                      <div class="team-image">
                         <img src="assets/images/team/team-1.jpg" alt="Team">
@@ -438,7 +411,7 @@
                   <!-- single team -->
                </div>
                <!-- team MEMBER 4 -->
-               <div class="col-lg-3 col-md-6 col-sm-6">
+               <div class="col-md-3  col-sm-6">
                   <div class="team text-center mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.6s">
                      <div class="team-image">
                         <img src="assets/images/team/team-1.jpg" alt="Team">
@@ -463,8 +436,8 @@
       <div class="row" style="padding: 8%;">
          <div class="container" id="FAQ">
             <div class="row">
-               <h2>Frequently Asked Questions</h2>
-               <div class="accordion">
+               <h2 class="heading">Frequently Asked Questions</h2>
+               <div class="accordion content">
                   <div class="accordion-item">
                      <a>Why is the moon sometimes out during the day?</a>
                      <div class="content">
@@ -531,15 +504,15 @@
       <script src="assets/js/bootstrap.min.js"></script>
       <script src="assets/js/wow.min.js"></script>
       <script src="assets/js/slick.min.js"></script>
-     
       <script src="assets/js/jquery.easing.min.js"></script>
       <script src="assets/js/aos.js"></script>
       <script src="assets/js/main.js"></script>
       <script src="assets/js/animations.js"></script>
       <script src="assets/js/partcipate.js"></script>
       <script src="assets/js/navbar.js"></script>
-
-  
+      <script src="assets/js/timer.js"></script>
+      <script src="assets/js/bkanimation.js"></script>
+      <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
       <!--============ auto-carousel =============-->
       <script type="text/javascript">
          $('.slider').slick({

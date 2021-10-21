@@ -230,13 +230,6 @@
    border-color: #125688;
 }
 
-.navbar {
-   position: fixed;
-   width: 100%;
-   transition: background-color 1s;
-   z-index: 30;
-}
-
 .rect {
    width: 100%;
    height: 100vh;
