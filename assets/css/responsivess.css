@@ -1,12 +1,12 @@
 @media (min-device-width: 20px) and (max-device-width: 600px) {
    .heading {
-      font-size: 30px;
+      font-size: 32px;
       font-weight: 600;
       text-align: center;
    }
 
    .content {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 400;
       line-height: 24px;
       text-align: center;
@@ -23,28 +23,31 @@
    }
    .landing-page {
       width: 100vw;
-      height: 140vh;
+      height: 120vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
    }
 
    .landingpage-heading1,
    .landingpage-heading2 {
       margin: auto;
-      font-size: 48px;
+      font-size: 50px;
    }
    .landingpage-heading2 {
       text-shadow: -1px -1px 0 #6c63ff, 1px -1px 0 #8c88e2, -1px 1px 0 #6c63ff, 1px 1px 0 #6c63ff;
    }
 
    .landingpage-description {
-      font-size: 16px;
+      font-size: 15px;
    }
 
    .time-div {
-      width: 80%;
+      width: 70%;
    }
    .timer,
    .timer span {
-      font-size: 1rem;
+      font-size: 13px;
    }
    /* --------------------------------------------- */
    #about {
@@ -57,6 +60,7 @@
       padding-top: 75px;
       padding-bottom: 80px;
    }
+
    .rewards-list {
       text-align: left;
    }
@@ -83,6 +87,10 @@
    .team-area {
       padding-top: 75px;
       padding-bottom: 80px;
+   }
+   .footer-mec {
+      display: flex;
+      flex-direction: column;
    }
 }
 @media (min-device-width: 600px) and (max-device-width: 1000px) {

@@ -297,7 +297,7 @@ i {
 }
 
 .team .team-content .team-name a:hover {
-   color: #27267c;
+   color: #007bb5;
    text-decoration: none;
 }
 
@@ -319,10 +319,11 @@ i {
 }
 
 .team .team-content .social li a {
-   font-size: 16px;
+   font-size: 14px;
    color: #646464;
-   width: 30px;
-   height: 30px;
+
+   width: 100px;
+   height: 100px;
    line-height: 35px;
    text-align: center;
    border-radius: 50%;
@@ -331,14 +332,14 @@ i {
 }
 
 .team .team-content .social li a:hover {
-   background-color: #330983;
-   color: #fff;
+   background-color: #71a6be;
+   color: rgb(10, 10, 10);
 }
 
 .team:hover .team-content {
    background-color: #fff;
    margin-top: -60px;
-   box-shadow: 0px 1px 7px 0px #495057;
+   box-shadow: 0px 1px 7px 0px #a7b7c7;
 }
 
 .team:hover .team-content .social {
