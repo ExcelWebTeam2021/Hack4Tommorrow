@@ -23,7 +23,7 @@
    }
    .landing-page {
       width: 100vw;
-      height: 120vh;
+      height: 100vh;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -121,7 +121,7 @@
    }
    .landing-page {
       width: 100vw;
-      height: 150vh;
+      height: 100vh;
       display: block;
       margin-left: auto;
       margin-right: auto;

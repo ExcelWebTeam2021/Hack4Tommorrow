@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Poppins&display=swap");
 
 .heading {
-   font-size: 45px;
+   font-size: 43px;
    font-family: "Poppins", sans-serif;
    color: #3f3d56;
    font-weight: 900;
@@ -9,7 +9,7 @@
 
 .content {
    font-family: "Barlow", sans-serif;
-   font-size: 20px;
+   font-size: 19px;
    font-weight: 400;
    line-height: 30px;
    color: #646464;
@@ -52,6 +52,10 @@ img {
 /* Why participate */
 .whyparticipate-text {
    margin: 10%;
+}
+.whyparticipate-reasons {
+   padding-left: 15%;
+   padding-right: 15%;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -280,7 +284,9 @@ i {
 /*===========================
         6.TEAM css 
 ===========================*/
-
+.team-area {
+   margin: 3%;
+}
 .team .team-content {
    width: 80%;
    margin: 0 auto;
