@@ -47,9 +47,13 @@ img {
 /*===========================
     3.ABOUT css 
 ===========================*/
+#about {
+   margin-top: 5%;
+}
 
 .about-text {
    margin: 10%;
+   margin-top: 15%;
 }
 
 /* Why participate */
@@ -72,7 +76,7 @@ img {
 }
 
 .problem-statements .problem-statements-icon i {
-   font-size: 52px;
+   font-size: 35px;
    color: #6f66ff;
    opacity: 0.75;
    transition: all 0.4s ease-out 0s;
