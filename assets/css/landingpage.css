@@ -13,6 +13,7 @@
 }
 
 .landingpage-text {
+   margin-top: 3%;
    display: block;
    text-align: center;
 }
@@ -21,13 +22,13 @@
 }
 .landingpage-heading1 {
    margin: auto;
-   font-size: 84px;
+   font-size: 74px;
    letter-spacing: 0.05em;
    color: rgb(241, 241, 241);
    text-shadow: 4px 4px #0f0b55;
 }
 .landingpage-heading2 {
-   font-size: 85px;
+   font-size: 75px;
    letter-spacing: 0.05em;
    color: #050505;
    text-shadow: -2px -1px 0 #6c63ff, 2px -2px 0 #8c88e2, -1px 2px 0 #6c63ff, 2px 2px 0 #6c63ff;
@@ -35,7 +36,7 @@
 
 .landingpage-description {
    color: rgb(129, 127, 127);
-   font-size: 20px;
+   font-size: 18px;
    width: 60%;
    text-align: center;
    display: block;
@@ -56,7 +57,7 @@
 
 .timer {
    display: inline-block;
-   font-size: 1em;
+   font-size: 0.7em;
    list-style-type: none;
    padding: 1em;
    text-transform: uppercase;
