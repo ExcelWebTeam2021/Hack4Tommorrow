@@ -1,39 +1,36 @@
-$(document).ready(function() {
-    $(window).scroll(function() {
-      if($(this).scrollTop() >500){
-         $(".navbar").removeClass("bg-dark");
-         document.getElementById("navbarNav").style.display = "none";
-         document.getElementById("navv").style.display = "none";
-         
+function resizeNav() {
+   // Set the nav height to fill the window
+   $("#nav-fullscreen").css({ height: window.innerHeight });
 
-      }
-      else{
-         $(".navbar").addClass("bg-dark");
-         document.getElementById("navv").style.display = "block";
-         document.getElementById("navbarNav").style.display = "block";
-      }
-    });
-  });
-  function resizeNav() {
-    // Set the nav height to fill the window
-    $("#nav-fullscreen").css({"height": window.innerHeight});
-
-    // Set the circle radius to the length of the window diagonal,
-    // this way we're only making the circle as big as it needs to be.
-    var radius = Math.sqrt(Math.pow(window.innerHeight, 2) + Math.pow(window.innerWidth, 2));
-    var diameter = radius * 2;
-    $("#nav-overlay").width(diameter);
-    $("#nav-overlay").height(diameter);
-    $("#nav-overlay").css({"margin-top": -radius, "margin-left": -radius});
+   // Set the circle radius to the length of the window diagonal,
+   // this way we're only making the circle as big as it needs to be.
+   var radius = Math.sqrt(Math.pow(window.innerHeight, 2) + Math.pow(window.innerWidth, 2));
+   var diameter = radius * 2;
+   $("#nav-overlay").width(diameter);
+   $("#nav-overlay").height(diameter);
+   $("#nav-overlay").css({ "margin-top": -radius, "margin-left": -radius });
 }
 
-// Set up click and window resize callbacks, then init the nav.
-$(document).ready(function() {
-    $("#nav-toggle").click(function() {
-        $("#nav-toggle, #nav-overlay, #nav-fullscreen").toggleClass("open");
-    });
+// Set up click and window resize callbacks, then init the nav. hamburger-navbar
+$(document).ready(function () {
+   $(window).scroll(function () {
+      if ($(this).scrollTop() > 500) {
+         $(".horizontal-navbar").addClass("d-none");
+         $(".hamburger-navbar").removeClass("d-none");
+         //  document.getElementByClass("horizontal-navbar").style.display = "none";
+         //  document.getElementById("navv").style.display = "none";
+      } else {
+         $(".horizontal-navbar").removeClass("d-none");
+         $(".hamburger-navbar").addClass("d-none");
+         //  document.getElementById("navv").style.display = "block";
+         //  document.getElementById("navbarNav").style.display = "block";
+      }
+   });
+   $("#nav-toggle").click(function () {
+      $("#nav-toggle, #nav-overlay, #nav-fullscreen").toggleClass("open");
+   });
 
-    $(window).resize(resizeNav);
+   $(window).resize(resizeNav);
 
-    resizeNav();
+   resizeNav();
 });
