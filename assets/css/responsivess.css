@@ -64,11 +64,8 @@
       margin: 1%;
    }
 
-   .rewards-list {
-      text-align: left;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+   .rewards-content {
+      margin-top: 1%;
    }
 
    .sponsers-area {

@@ -65,7 +65,7 @@ img {
 ===========================*/
 
 .problem-statements {
-   background-color: #fbfbfb;
+   background-color: #fffefe;
    transition: all 0.4s ease-out 0s;
    box-shadow: 5px 5px 6px #c0bcf34d;
    margin: 5%;
@@ -106,11 +106,12 @@ img {
 
 /* Rewards */
 .rewards {
-   margin: 5%;
+   margin: 1%;
 }
 
-.rewards-text {
-   margin-top: 5%;
+.rewards-content {
+   margin-top: 8%;
+   padding-right: 1%;
 }
 
 /*===========================
