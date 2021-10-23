@@ -1,25 +1,22 @@
-body {
-   line-height: 1.3em;
-   min-width: 920px;
-}
 .history-tl-container {
    width: 50%;
-   margin: auto;
    display: block;
-   position: relative;
+   margin-left: auto;
+   margin-right: auto;
 }
 .history-tl-container ul.tl {
-   margin: 20px 0;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
    padding: 0;
-   display: inline-block;
 }
 .history-tl-container ul.tl li {
    list-style: none;
    margin: auto;
-   margin-left: 200px;
+   margin-left: 50%;
    min-height: 50px;
-   border-left: 1px dashed #86d6ff;
-   padding: 0 0 50px 30px;
+   border-left: 1px dashed #258cc7;
+   padding: 0 0 80px 30px;
    position: relative;
 }
 .history-tl-container ul.tl li:last-child {
@@ -27,12 +24,12 @@ body {
 }
 .history-tl-container ul.tl li::before {
    position: absolute;
-   left: -18px;
+   left: -10px;
    top: -5px;
    content: " ";
    border: 8px solid rgba(255, 255, 255, 0.74);
    border-radius: 500%;
-   background: #258cc7;
+   background: #636668;
    height: 20px;
    width: 20px;
    transition: all 500ms ease-in-out;
