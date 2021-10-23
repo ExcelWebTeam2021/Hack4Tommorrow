@@ -60,10 +60,17 @@
       padding-top: 75px;
       padding-bottom: 80px;
    }
+   .rewards {
+      margin: 1%;
+   }
 
    .rewards-list {
       text-align: left;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
    }
+
    .sponsers-area {
       padding-top: 75px;
       padding-bottom: 80px;
