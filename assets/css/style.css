@@ -62,10 +62,9 @@ img {
 ===========================*/
 
 .problem-statements {
-   padding: 50px 30px;
-   background-color: #fafafa;
+   background-color: #fbfbfb;
    transition: all 0.4s ease-out 0s;
-   box-shadow: 1px 1px 3px #c0bcf344;
+   box-shadow: 5px 9px 10px #c0bcf34d;
    margin: 5%;
 }
 
@@ -85,6 +84,7 @@ img {
 
 .problem-statements:hover {
    background-color: #6f66ff;
+   border-radius: 5%;
 }
 
 .problem-statements:hover .problem-statements-icon i {
@@ -107,7 +107,7 @@ img {
 }
 
 .rewards-text {
-   margin-top: 10%;
+   margin-top: 5%;
 }
 
 /*===========================
