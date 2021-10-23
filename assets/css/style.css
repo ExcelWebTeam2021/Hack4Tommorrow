@@ -50,34 +50,13 @@ img {
 }
 
 /* Why participate */
+#whyparticipate {
+   margin-top: 5%;
+}
 .whyparticipate-text {
-   margin: 10%;
-}
-.whyparticipate-reasons {
-   padding-left: 15%;
-   padding-right: 15%;
-}
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-   height: 100px;
-   width: 100px;
-   outline: black;
-   background-size: 100%, 100%;
-   border-radius: 50%;
-   background-image: none;
+   margin: 5%;
 }
 
-.carousel-control-next-icon:after {
-   content: ">";
-   font-size: 55px;
-   color: rgb(28, 4, 66);
-}
-
-.carousel-control-prev-icon:after {
-   content: "<";
-   font-size: 55px;
-   color: rgb(28, 4, 66);
-}
 /*===========================
       4.problem-statementS css 
 ===========================*/
@@ -88,11 +67,6 @@ img {
    transition: all 0.4s ease-out 0s;
    box-shadow: 1px 1px 3px #c0bcf344;
    margin: 5%;
-}
-.problem-statements-area {
-   margin-top: 5%;
-   margin-left: 8%;
-   margin-right: 8%;
 }
 
 .problem-statements .problem-statements-icon i {
@@ -133,7 +107,7 @@ img {
 }
 
 .rewards-text {
-   margin: 10%;
+   margin-top: 10%;
 }
 
 /*===========================
