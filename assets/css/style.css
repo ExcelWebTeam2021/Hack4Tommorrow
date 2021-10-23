@@ -64,7 +64,7 @@ img {
 .problem-statements {
    background-color: #fbfbfb;
    transition: all 0.4s ease-out 0s;
-   box-shadow: 5px 9px 10px #c0bcf34d;
+   box-shadow: 5px 5px 6px #c0bcf34d;
    margin: 5%;
 }
 
