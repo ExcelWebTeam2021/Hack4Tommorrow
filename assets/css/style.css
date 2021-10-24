@@ -41,106 +41,79 @@ img {
    position: fixed;
 }
 /* Navbar */
-
+.navbar-nav {
+   text-align: center;
+}
+.nav-item {
+   font-family: "Barlow", sans-serif;
+   display: block;
+   margin-left: 4%;
+   margin-right: 4%;
+}
+.horizontal-navbar {
+   background-color: #050505 !important;
+   width: 100vw;
+}
 /*===========================
     3.ABOUT css 
 ===========================*/
+#about {
+   margin-top: 5%;
+}
 
 .about-text {
    margin: 10%;
+   margin-top: 5%;
 }
 
 /* Why participate */
+#whyparticipate {
+   margin-top: 5%;
+}
 .whyparticipate-text {
-   margin: 10%;
-}
-.whyparticipate-reasons {
-   padding-left: 15%;
-   padding-right: 15%;
-}
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-   height: 100px;
-   width: 100px;
-   outline: black;
-   background-size: 100%, 100%;
-   border-radius: 50%;
-   background-image: none;
-}
-
-.carousel-control-next-icon:after {
-   content: ">";
-   font-size: 55px;
-   color: rgb(28, 4, 66);
-}
-
-.carousel-control-prev-icon:after {
-   content: "<";
-   font-size: 55px;
-   color: rgb(28, 4, 66);
-}
-/*===========================
-      4.problem-statementS css 
-===========================*/
-
-.problem-statements {
-   padding: 50px 30px;
-   background-color: #fafafa;
-   transition: all 0.4s ease-out 0s;
-<<<<<<< HEAD
-   box-shadow: 1px 1px 3px #c0bcf344;
    margin: 5%;
-=======
+}
+
+.timeline {
+   margin-top: 8%;
+}
+
+.card-section {
+   background-color: #fffefe;
+   transition: all 0.4s ease-out 0s;
    box-shadow: 5px 5px 6px #c0bcf34d;
    margin: 3%;
->>>>>>> b99937729790b83b0bd80d2a6d8805a04636f623
-}
-.problem-statements-area {
-   margin-top: 5%;
-   margin-left: 8%;
-   margin-right: 8%;
 }
 
-.problem-statements .problem-statements-icon i {
-   font-size: 52px;
+.card-section .card-section-icon i {
+   font-size: 65px;
    color: #6f66ff;
    opacity: 0.75;
    transition: all 0.4s ease-out 0s;
 }
 
-.problem-statements .problem-statements-content .problem-statements-title {
+.card-section .card-section-content .card-section-title {
    font-size: 22px;
    font-weight: 600;
    font-family: "Barlow", sans-serif;
    transition: all 0.4s ease-out 0s;
 }
 
-.problem-statements:hover {
+.card-section:hover {
    background-color: #6f66ff;
+   border-radius: 5%;
 }
 
-.problem-statements:hover .problem-statements-icon i {
+.card-section:hover .card-section-icon i {
    color: #fff;
 }
-.problem-statements-title {
+.card-section-title {
    color: #3f3d56;
 }
-.problem-statements:hover .problem-statements-content .problem-statements-title,
-.problem-statements:hover .problem-statements-content p {
+.card-section:hover .card-section-content .card-section-title,
+.card-section:hover .card-section-content p {
    color: #fff;
 }
-<<<<<<< HEAD
-.problem-stmt-description {
-   font-size: 17px;
-}
-
-/* Rewards */
-.rewards {
-   margin: 5%;
-}
-.rewards-text {
-   margin: 10%;
-=======
 
 /* Rewards */
 
@@ -169,7 +142,6 @@ img {
 #judges {
    margin: 10%;
    margin-bottom: 5%;
->>>>>>> b99937729790b83b0bd80d2a6d8805a04636f623
 }
 /*===========================
       5.SPONSORS css 
@@ -322,15 +294,9 @@ i {
    margin: 5%;
 }
 .team .team-content {
-<<<<<<< HEAD
-   width: 80%;
-   margin: 0 auto;
-   padding: 30px 15px;
-=======
    width: 70%;
    margin: 2% auto;
    padding: 1% 8%;
->>>>>>> b99937729790b83b0bd80d2a6d8805a04636f623
    position: relative;
    transition: all 0.4s ease-out 0s;
 }
@@ -353,20 +319,14 @@ i {
 }
 
 .team .team-content .social {
-<<<<<<< HEAD
-   margin-top: -35px;
-   opacity: 0;
-   visibility: hidden;
-=======
    /* opacity: 0; */
    /* visibility: hidden; */
->>>>>>> b99937729790b83b0bd80d2a6d8805a04636f623
    transition: all 0.4s ease-out 0s;
 }
 
 .team .team-content .social li {
    display: inline-block;
-   margin: 0 7px;
+   margin: 0 5px;
 }
 
 .team .team-content .social li a {
@@ -375,7 +335,7 @@ i {
 
    width: 100px;
    height: 100px;
-   line-height: 35px;
+   line-height: 15px;
    text-align: center;
    border-radius: 50%;
    background-color: #ededed;
@@ -398,8 +358,6 @@ i {
    opacity: 1;
    visibility: visible;
 }
-<<<<<<< HEAD
-=======
 .team-image {
    height: 50%;
    width: 50%;
@@ -537,4 +495,3 @@ i {
    width: 100%;
    height: 100vh;
 }
->>>>>>> b99937729790b83b0bd80d2a6d8805a04636f623
