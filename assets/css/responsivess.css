@@ -1,3 +1,12 @@
+@media (min-device-width: 20px) and (max-device-width: 400px) {
+   .landing-page {
+      width: 100vw;
+      height: 130vh;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
 @media (min-device-width: 20px) and (max-device-width: 600px) {
    .heading {
       font-size: 32px;
@@ -26,7 +35,7 @@
    }
    .landing-page {
       width: 100vw;
-      height: 100vh;
+      height: 110vh;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -184,18 +193,14 @@
    }
 }
 @media (max-width: 500px) {
-   .paddin{
+   .paddin {
       text-align: left;
       padding-left: 3%;
-      
    }
-
-   
 }
 @media (min-width: 500px) {
-   .paddin{
+   .paddin {
       text-align: left;
       padding-left: 1.5%;
-      
    }
 }
