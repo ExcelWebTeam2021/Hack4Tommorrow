@@ -120,12 +120,23 @@ img {
 }
 
 .rewards-content {
-   margin-top: 8%;
+   margin-top: 5%;
    padding-right: 1%;
 }
 .prize {
    width: 60%;
    height: 50%;
+}
+.problem-stmt-description {
+   font-size: 17px;
+}
+.bounty-description {
+   text-align: left;
+   font-size: 17px;
+   padding: 5%;
+}
+.special-prizes {
+   margin: 5%;
 }
 
 /*===========================
