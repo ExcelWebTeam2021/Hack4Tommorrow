@@ -5,6 +5,7 @@
    font-family: "Poppins", sans-serif;
    color: #3f3d56;
    font-weight: 900;
+   margin-bottom: 5%;
 }
 
 .content {
@@ -86,8 +87,13 @@ img {
    padding: 50px 30px;
    background-color: #fafafa;
    transition: all 0.4s ease-out 0s;
+<<<<<<< HEAD
    box-shadow: 1px 1px 3px #c0bcf344;
    margin: 5%;
+=======
+   box-shadow: 5px 5px 6px #c0bcf34d;
+   margin: 3%;
+>>>>>>> b99937729790b83b0bd80d2a6d8805a04636f623
 }
 .problem-statements-area {
    margin-top: 5%;
@@ -123,6 +129,7 @@ img {
 .problem-statements:hover .problem-statements-content p {
    color: #fff;
 }
+<<<<<<< HEAD
 .problem-stmt-description {
    font-size: 17px;
 }
@@ -133,6 +140,36 @@ img {
 }
 .rewards-text {
    margin: 10%;
+=======
+
+/* Rewards */
+
+.rewards-content {
+   padding-right: 1%;
+}
+.prize {
+   width: 60%;
+   height: 50%;
+}
+.problem-stmt-description {
+   font-size: 17px;
+}
+.rewards-description {
+   font-size: 21px;
+}
+.bounty-description {
+   text-align: left;
+   font-size: 17px;
+   padding: 5%;
+}
+.special-prizes {
+   margin: 5%;
+}
+
+#judges {
+   margin: 10%;
+   margin-bottom: 5%;
+>>>>>>> b99937729790b83b0bd80d2a6d8805a04636f623
 }
 /*===========================
       5.SPONSORS css 
@@ -146,9 +183,6 @@ img {
    position: relative;
 }
 
-.sponsers-title {
-   margin-bottom: 5%;
-}
 .sponsers .sponsers-image::before {
    position: absolute;
    content: "";
@@ -285,12 +319,18 @@ i {
         6.TEAM css 
 ===========================*/
 .team-area {
-   margin: 3%;
+   margin: 5%;
 }
 .team .team-content {
+<<<<<<< HEAD
    width: 80%;
    margin: 0 auto;
    padding: 30px 15px;
+=======
+   width: 70%;
+   margin: 2% auto;
+   padding: 1% 8%;
+>>>>>>> b99937729790b83b0bd80d2a6d8805a04636f623
    position: relative;
    transition: all 0.4s ease-out 0s;
 }
@@ -313,9 +353,14 @@ i {
 }
 
 .team .team-content .social {
+<<<<<<< HEAD
    margin-top: -35px;
    opacity: 0;
    visibility: hidden;
+=======
+   /* opacity: 0; */
+   /* visibility: hidden; */
+>>>>>>> b99937729790b83b0bd80d2a6d8805a04636f623
    transition: all 0.4s ease-out 0s;
 }
 
@@ -353,3 +398,143 @@ i {
    opacity: 1;
    visibility: visible;
 }
+<<<<<<< HEAD
+=======
+.team-image {
+   height: 50%;
+   width: 50%;
+   border-radius: 100%;
+}
+.hamburger-navbar {
+   margin: 3%;
+   position: fixed;
+   z-index: 800;
+}
+
+#nav-toggle {
+   display: block;
+   width: 32px;
+   height: 32px;
+   cursor: pointer;
+   transform: rotate(0deg);
+}
+
+#nav-toggle span {
+   width: 100%;
+   height: 4px;
+   border-radius: 1px;
+   display: block;
+   position: absolute;
+   left: 0;
+   content: "";
+   transition: 0.5s ease-in-out;
+}
+
+#nav-toggle span:nth-child(1) {
+   top: 4px;
+   transform-origin: left center;
+   background-color: #1a1a1a;
+}
+
+#nav-toggle span:nth-child(2) {
+   top: 14px;
+   transform-origin: left center;
+   background-color: #1a1a1a;
+}
+
+#nav-toggle span:nth-child(3) {
+   top: 24px;
+   transform-origin: left center;
+   background-color: #1a1a1a;
+}
+
+#nav-toggle.open span:nth-child(1) {
+   transform: rotate(45deg);
+   top: 3px;
+   left: 4px;
+}
+
+#nav-toggle.open span:nth-child(2) {
+   width: 0%;
+   opacity: 0;
+}
+
+#nav-toggle.open span:nth-child(3) {
+   transform: rotate(-45deg);
+   top: 25px;
+   left: 4px;
+}
+
+#nav-overlay {
+   position: absolute;
+   top: 16px;
+   left: 16px;
+   z-index: -1;
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 50%;
+   transition: 1s;
+   transform: scale3d(0, 0, 0);
+}
+
+#nav-overlay.open {
+   transform: scale3d(1, 1, 1);
+}
+
+#nav-fullscreen {
+   width: 100%;
+   position: fixed;
+   left: 0;
+   top: 0;
+   transition: ease-in-out 0.25s;
+   transition-delay: 0s;
+   visibility: hidden;
+   opacity: 0;
+}
+#nav-fullscreen ul {
+   list-style: none;
+}
+#nav-fullscreen a {
+   color: white;
+   text-decoration: none;
+}
+
+#nav-fullscreen.open {
+   visibility: visible;
+   opacity: 1;
+   transition: ease-in-out 0.5s;
+   transition-delay: 0.25s;
+}
+
+#nav-overlay {
+   background: linear-gradient(90deg, #055fb5 40%, #339af0 30%, #055fb5 20%);
+}
+
+#nav-toggle span {
+   background-color: white;
+}
+
+#nav-fullscreen {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-size: 40px;
+   padding: 30%;
+   margin-bottom: 20%;
+   font-family: "Poppins", sans-serif;
+}
+#nav-fullscreen li:hover {
+   list-style: disc;
+}
+
+.navbar {
+   position: fixed;
+   width: 100%;
+   transition: background-color 1s;
+}
+
+.rect {
+   width: 100%;
+   height: 100vh;
+}
+>>>>>>> b99937729790b83b0bd80d2a6d8805a04636f623

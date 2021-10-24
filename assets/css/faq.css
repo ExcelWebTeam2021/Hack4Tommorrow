@@ -1,6 +1,9 @@
 .faq {
    margin: 5%;
 }
+.faq-heading {
+   margin-bottom: 1% !important;
+}
 .accordion .accordion-item {
    border-bottom: 1px solid #e5e5e5;
 }
