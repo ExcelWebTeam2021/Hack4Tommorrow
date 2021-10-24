@@ -8,7 +8,6 @@
    display: block;
    margin-left: auto;
    margin-right: auto;
-
    padding: 0;
 }
 .history-tl-container ul.tl li {
@@ -17,7 +16,7 @@
    margin-left: 50%;
    min-height: 50px;
    border-left: 1px dashed #258cc7;
-   padding: 0 0 80px 30px;
+   padding: 0 0 60px 30px;
    position: relative;
 }
 .history-tl-container ul.tl li:last-child {
@@ -46,7 +45,7 @@ ul.tl li .item-detail {
 ul.tl li .timestamp {
    color: #3f3d56;
    position: absolute;
-   width: 50%;
+   width: 40%;
    left: -50%;
-   text-align: center;
+   text-align: right;
 }

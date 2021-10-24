@@ -116,12 +116,8 @@ img {
 }
 
 /* Rewards */
-.rewards {
-   margin: 1%;
-}
 
 .rewards-content {
-   margin-top: 5%;
    padding-right: 1%;
 }
 .prize {
@@ -130,6 +126,9 @@ img {
 }
 .problem-stmt-description {
    font-size: 17px;
+}
+.rewards-description {
+   font-size: 21px;
 }
 .bounty-description {
    text-align: left;
@@ -465,7 +464,7 @@ i {
 }
 
 #nav-overlay {
-   background: linear-gradient(90deg, rgb(199, 200, 230) 40%, #339af0 30%, #055fb5 20%);
+   background: linear-gradient(90deg, #055fb5 40%, #339af0 30%, #055fb5 20%);
 }
 
 #nav-toggle span {
@@ -477,9 +476,9 @@ i {
    align-items: center;
    justify-content: center;
    color: white;
-   font-family: sans-serif;
    font-size: 40px;
    padding: 30%;
+   margin-bottom: 20%;
    font-family: "Poppins", sans-serif;
 }
 #nav-fullscreen li:hover {
