@@ -126,6 +126,14 @@ img {
 }
 .problem-stmt-description {
    font-size: 17px;
+   
+}
+a{
+   color:black;
+
+}
+a:hover{
+   color: white;
 }
 .rewards-description {
    font-size: 21px;
