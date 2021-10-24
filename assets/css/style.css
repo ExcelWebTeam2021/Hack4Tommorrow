@@ -43,7 +43,16 @@ img {
 .navbar-nav {
    text-align: center;
 }
-
+.nav-item {
+   font-family: "Barlow", sans-serif;
+   display: block;
+   margin-left: 4%;
+   margin-right: 4%;
+}
+.horizontal-navbar {
+   background-color: #050505 !important;
+   width: 100vw;
+}
 /*===========================
     3.ABOUT css 
 ===========================*/
@@ -64,48 +73,45 @@ img {
    margin: 5%;
 }
 
-/*===========================
-      4.problem-statementS css 
-===========================*/
+.timeline {
+   margin-top: 8%;
+}
 
-.problem-statements {
+.card-section {
    background-color: #fffefe;
    transition: all 0.4s ease-out 0s;
    box-shadow: 5px 5px 6px #c0bcf34d;
    margin: 5%;
 }
 
-.problem-statements .problem-statements-icon i {
+.card-section .card-section-icon i {
    font-size: 65px;
    color: #6f66ff;
    opacity: 0.75;
    transition: all 0.4s ease-out 0s;
 }
 
-.problem-statements .problem-statements-content .problem-statements-title {
+.card-section .card-section-content .card-section-title {
    font-size: 22px;
    font-weight: 600;
    font-family: "Barlow", sans-serif;
    transition: all 0.4s ease-out 0s;
 }
 
-.problem-statements:hover {
+.card-section:hover {
    background-color: #6f66ff;
    border-radius: 5%;
 }
 
-.problem-statements:hover .problem-statements-icon i {
+.card-section:hover .card-section-icon i {
    color: #fff;
 }
-.problem-statements-title {
+.card-section-title {
    color: #3f3d56;
 }
-.problem-statements:hover .problem-statements-content .problem-statements-title,
-.problem-statements:hover .problem-statements-content p {
+.card-section:hover .card-section-content .card-section-title,
+.card-section:hover .card-section-content p {
    color: #fff;
-}
-.problem-stmt-description {
-   font-size: 17px;
 }
 
 /* Rewards */
@@ -343,7 +349,7 @@ i {
 }
 
 .hamburger-navbar {
-   margin: 1%;
+   margin: 3%;
    position: fixed;
    z-index: 800;
 }
@@ -456,7 +462,9 @@ i {
    justify-content: center;
    color: white;
    font-family: sans-serif;
-   font-size: 10vh;
+   font-size: 40px;
+   padding: 30%;
+   font-family: "Poppins", sans-serif;
 }
 #nav-fullscreen li:hover {
    list-style: disc;

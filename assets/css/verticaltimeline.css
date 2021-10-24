@@ -1,6 +1,7 @@
 .history-tl-container {
    width: 50%;
    display: block;
+   padding: 3%;
    margin-left: auto;
    margin-right: auto;
 }

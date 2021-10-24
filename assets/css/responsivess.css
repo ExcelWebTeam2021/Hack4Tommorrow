@@ -11,6 +11,9 @@
       line-height: 24px;
       text-align: center;
    }
+   .horizontal-navbar {
+      display: none;
+   }
 
    .larger-screen-img {
       display: none;
@@ -48,15 +51,17 @@
    .timer,
    .timer span {
       font-size: 13px;
+      padding: 1em;
    }
+
    /* --------------------------------------------- */
    #about {
       margin-top: 5%;
    }
-   .problem-statements {
+   .card-section {
       padding: 30px 10px;
    }
-   .problem-statements-area {
+   .card-section-area {
       padding-top: 75px;
       padding-bottom: 80px;
    }
@@ -67,7 +72,14 @@
    .rewards-content {
       margin-top: 1%;
    }
-
+   /* Timeline */
+   .history-tl-container {
+      width: 80%;
+      margin: 10%;
+   }
+   .history-tl-container ul.tl li {
+      margin-left: 30%;
+   }
    .sponsers-area {
       padding-top: 75px;
       padding-bottom: 80px;
@@ -160,7 +172,7 @@
    .smaller-screen-img {
       display: none;
    }
-   .problem-statements {
+   .card-section {
       padding: 30px 10px;
    }
    .team .team-content {

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Poppins&display=swap");
+
 /*===========================
    1. Main page
 ===========================*/
@@ -5,7 +7,7 @@
    background: #050505;
 }
 .landing-page {
-   background: #050505;
+   background-image: #050505;
    width: 100vw;
    height: 100vh;
    padding-top: 5%;
@@ -22,13 +24,13 @@
 }
 .landingpage-heading1 {
    margin: auto;
-   font-size: 74px;
+   font-size: 75px;
    letter-spacing: 0.05em;
    color: rgb(241, 241, 241);
-   text-shadow: 4px 4px #0f0b55;
+   text-shadow: 4px 4px #090735;
 }
 .landingpage-heading2 {
-   font-size: 75px;
+   font-size: 77px;
    letter-spacing: 0.05em;
    color: #050505;
    text-shadow: -2px -1px 0 #6c63ff, 2px -2px 0 #8c88e2, -1px 2px 0 #6c63ff, 2px 2px 0 #6c63ff;
@@ -47,6 +49,7 @@
 }
 
 .landingpage_girl {
+   margin-top: 2%;
    z-index: 500 !important;
 }
 .time-div {
@@ -59,13 +62,14 @@
    display: inline-block;
    font-size: 0.7em;
    list-style-type: none;
-   padding: 1em;
+   padding: 1.5em;
    text-transform: uppercase;
+   font-family: "Poppins", sans-serif;
 }
 
 .timer span {
    display: block;
-   font-size: 1.6rem;
+   font-size: 28px;
 }
 
 .animation-container {
@@ -79,7 +83,7 @@
    position: absolute;
    color: #dcdafa;
    display: block;
-   font-size: 18px;
+   font-size: 23px;
    text-shadow: 0 0 1px white;
    user-select: none;
    pointer-events: none;
@@ -112,8 +116,10 @@
    }
 }
 .apply-button {
-   margin-top: 5%;
+   margin-top: 1%;
 }
 .apply-svg {
    width: 30px;
 }
+
+/* Animation */
