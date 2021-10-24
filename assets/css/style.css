@@ -99,9 +99,10 @@ img {
    transition: all 0.4s ease-out 0s;
 }
 
-.card-section:hover {
+.card-section:hover{
    background-color: #6f66ff;
    border-radius: 5%;
+   color: white;
 }
 
 .card-section:hover .card-section-icon i {
@@ -129,10 +130,11 @@ img {
    
 }
 a{
-   color:black;
-
+   color:#3f3d56;
+   text-decoration: none;
 }
 a:hover{
+   text-decoration: none;
    color: white;
 }
 .rewards-description {
