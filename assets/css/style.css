@@ -5,6 +5,7 @@
    font-family: "Poppins", sans-serif;
    color: #3f3d56;
    font-weight: 900;
+   margin-bottom: 6%;
 }
 
 .content {
@@ -81,7 +82,7 @@ img {
    background-color: #fffefe;
    transition: all 0.4s ease-out 0s;
    box-shadow: 5px 5px 6px #c0bcf34d;
-   margin: 5%;
+   margin: 3%;
 }
 
 .card-section .card-section-icon i {
@@ -155,9 +156,6 @@ img {
    position: relative;
 }
 
-.sponsers-title {
-   margin-bottom: 5%;
-}
 .sponsers .sponsers-image::before {
    position: absolute;
    content: "";
