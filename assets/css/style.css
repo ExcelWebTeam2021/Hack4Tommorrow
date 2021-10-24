@@ -141,6 +141,7 @@ img {
 
 #judges {
    margin: 10%;
+   margin-bottom: 5%;
 }
 /*===========================
       5.SPONSORS css 
@@ -293,10 +294,10 @@ i {
         6.TEAM css 
 ===========================*/
 .team-area {
-   margin: 3%;
+   margin: 5%;
 }
 .team .team-content {
-   width: 75%;
+   width: 70%;
    margin: 2% auto;
    padding: 1% 8%;
    position: relative;
@@ -321,9 +322,8 @@ i {
 }
 
 .team .team-content .social {
-   margin-top: -5px;
-   opacity: 0;
-   visibility: hidden;
+   /* opacity: 0; */
+   /* visibility: hidden; */
    transition: all 0.4s ease-out 0s;
 }
 
@@ -361,7 +361,11 @@ i {
    opacity: 1;
    visibility: visible;
 }
-
+.team-image {
+   height: 50%;
+   width: 50%;
+   border-radius: 100%;
+}
 .hamburger-navbar {
    margin: 3%;
    position: fixed;
@@ -463,7 +467,7 @@ i {
 }
 
 #nav-overlay {
-   background: linear-gradient(180deg, #fff 20%, #339af0 30%, #055fb5 85%);
+   background: linear-gradient(90deg, rgb(199, 200, 230) 40%, #339af0 30%, #055fb5 20%);
 }
 
 #nav-toggle span {
