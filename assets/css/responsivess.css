@@ -1,12 +1,3 @@
-@media (min-device-width: 20px) and (max-device-width: 400px) {
-   .landing-page {
-      width: 100vw;
-      height: 130vh;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-   }
-}
 @media (min-device-width: 20px) and (max-device-width: 600px) {
    .heading {
       font-size: 32px;
@@ -29,13 +20,13 @@
    }
    .smaller-screen-img {
       display: block;
-      width: 70%;
+      width: 60%;
       margin-left: auto;
       margin-right: auto;
    }
    .landing-page {
       width: 100vw;
-      height: 110vh;
+      height: 130vh;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -65,7 +56,7 @@
 
    /* --------------------------------------------- */
    #about {
-      margin-top: 5%;
+      margin-top: 8%;
    }
    .smallscreen-hide {
       display: none;
@@ -86,8 +77,10 @@
    }
    /* Timeline */
    .history-tl-container {
-      width: 80%;
+      width: 90%;
       margin: 15%;
+      padding-left: 13%;
+      padding-right: 10%;
    }
    .history-tl-container ul.tl li {
       margin-left: 15%;
