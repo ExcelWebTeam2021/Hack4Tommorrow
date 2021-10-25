@@ -12,14 +12,11 @@
       <meta http-equiv="pragma" content="no-cache" />
 	  
     <meta name="description" content="HackForTomorrow (HFT), a week long hackathon held in association with Devfolio, aims to encourage the development of innovative technological solutions for societal issues" />
-    <meta property="og:image" content="--- YOUR IMAGE ---">
     <meta property="og:site_name" content="HackForTomorrow"/>
     <meta property="og:title" content="HackForTomorrow"/>
     <meta property="og:url" content="https://hft.excelmec.org/"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:description" content="--- SITE DESCRIPTION ---"/>
-    <meta property="og:locale" content="---  ---">
-    <meta property="og:image" content="--- YOUR IMAGE ---"/>
+    <meta property="og:description" content="HackForTomorrow (HFT), a week long hackathon held in association with Devfolio, aims to encourage the development of innovative technological solutions for societal issues"/>
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
  
@@ -737,7 +734,9 @@
          
          items.forEach(item => item.addEventListener('click', toggleAccordion));
          // Navbar close
-       
+         $("#nav-fullscreen li a").click(function () {
+      $("#nav-toggle, #nav-overlay, #nav-fullscreen").toggleClass("open");
+   });
       </script>
    </body>
 </html>
