@@ -182,9 +182,10 @@ a:hover {
 .sponsers .sponsers-image {
    position: relative;
    background-color: #f3f5f6d0;
-   height: 180px;
-   margin-left: 5%;
-   margin-right: 5%;
+   height: 200px;
+   width: 200px;
+   margin-left: 2%;
+   margin-right: 2%;
    padding: 5%;
    display: flex;
    justify-content: center;
