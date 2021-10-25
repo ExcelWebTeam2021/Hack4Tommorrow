@@ -44,11 +44,12 @@ img {
 /* Navbar */
 .navbar-nav {
    text-align: center;
+   font-size: 18px;
 }
 .nav-item {
    font-family: "Barlow", sans-serif;
    display: block;
-   margin-left: 4%;
+   margin-left: 1%;
    margin-right: 4%;
 }
 .horizontal-navbar {
@@ -74,9 +75,12 @@ img {
 .whyparticipate-text {
    margin: 5%;
 }
-
-.timeline {
-   margin-top: 8%;
+.whyparticipate-reason {
+   padding: 5%;
+   background: red;
+}
+.timeline-div {
+   margin-top: 2%;
 }
 
 .card-section {
@@ -117,7 +121,10 @@ img {
 .card-section:hover .card-section-content p {
    color: #fff;
 }
-
+.card-section-content {
+   padding-left: 5%;
+   padding-right: 5%;
+}
 /* Rewards */
 
 .rewards-content {
