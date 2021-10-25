@@ -132,7 +132,7 @@
       right: -10px;
       top: 25%;
    }
-   .team-area {
+   .contact-area {
       padding-top: 75px;
       padding-bottom: 80px;
    }
@@ -193,7 +193,7 @@
       text-align: left;
    }
 
-   .team-area {
+   .contact-area {
       padding-top: 75px;
       padding-bottom: 80px;
    }
@@ -211,7 +211,7 @@
    .card-section {
       padding: 30px 10px;
    }
-   .team .team-content {
+   .contact .contact-content {
       padding: 30px 0;
    }
 }
