@@ -20,6 +20,7 @@ html,
 body {
    max-width: 100%;
    overflow-x: hidden;
+   scroll-behavior: smooth;
 }
 
 * {
@@ -96,12 +97,13 @@ img {
    font-size: 22px;
    font-weight: 600;
    font-family: "Barlow", sans-serif;
-   transition: all 0.4s ease-out 0s;
+   transition: all 0.4s ease-in 0s;
+   animation-duration: 3s;
 }
 
-.card-section:hover{
-   background-color: #6f66ff;
-   border-radius: 5%;
+.card-section:hover {
+   background-color: #3f3d56;
+   border-radius: 10%;
    color: white;
 }
 
@@ -127,26 +129,31 @@ img {
 }
 .problem-stmt-description {
    font-size: 17px;
-   
 }
-a{
-   color:#3f3d56;
+a {
+   color: #3f3d56;
    text-decoration: none;
 }
-a:hover{
+a:hover {
    text-decoration: none;
    color: white;
 }
-.rewards-description {
+/* Reward */
+
+.prize-description {
    font-size: 21px;
 }
+/* Bounty */
 .bounty-description {
    text-align: left;
-   font-size: 17px;
    padding: 5%;
 }
 .special-prizes {
-   margin: 5%;
+   margin: 8%;
+}
+.bounty-card {
+   padding-right: 3%;
+   padding-left: 3%;
 }
 
 #judges {
@@ -205,7 +212,9 @@ a:hover{
    top: 50%;
    left: -60px;
 }
-
+.sponsers-title {
+   padding-bottom: 9%;
+}
 .sponsers:hover .sponsers-image::before {
    opacity: 1;
 }
@@ -318,11 +327,6 @@ i {
    transition: all 0.4s ease-out 0s;
 }
 
-.team .team-content .team-name a:hover {
-   color: #007bb5;
-   text-decoration: none;
-}
-
 .team .team-content .sub-title {
    font-size: 18px;
    color: #646464;
@@ -340,11 +344,10 @@ i {
 }
 
 .team .team-content .social li a {
-   font-size: 14px;
+   font-size: 18px;
    color: #646464;
-
-   width: 100px;
-   height: 100px;
+   width: 200px;
+   height: 200px;
    line-height: 15px;
    text-align: center;
    border-radius: 50%;
@@ -357,20 +360,17 @@ i {
    color: rgb(10, 10, 10);
 }
 
-.team:hover .team-content {
-   background-color: #fff;
-   margin-top: -60px;
-   box-shadow: 0px 1px 7px 0px #a7b7c7;
-}
-
 .team:hover .team-content .social {
-   margin-top: 25px;
    opacity: 1;
    visibility: visible;
 }
+.team-img-div {
+   height: 100%;
+   width: 100%;
+}
 .team-image {
-   height: 50%;
-   width: 50%;
+   height: 140px;
+   width: 120px;
    border-radius: 100%;
 }
 .hamburger-navbar {
@@ -457,6 +457,7 @@ i {
    transition-delay: 0s;
    visibility: hidden;
    opacity: 0;
+   top: -10% !important;
 }
 #nav-fullscreen ul {
    list-style: none;
@@ -488,7 +489,7 @@ i {
    color: white;
    font-size: 40px;
    padding: 30%;
-   margin-bottom: 20%;
+   margin-bottom: 20% !important;
    font-family: "Poppins", sans-serif;
 }
 #nav-fullscreen li:hover {
