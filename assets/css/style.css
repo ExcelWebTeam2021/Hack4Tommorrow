@@ -170,15 +170,26 @@ a:hover {
 
 .sponsers .sponsers-image {
    position: relative;
+   background-color: #fbfafa;
+   height: 180px;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding: 5%;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-direction: column;
+   border-radius: 20px;
+   box-shadow: 2px 2px 6px #c0bcf34d;
 }
 
 .sponsers .sponsers-image::before {
    position: absolute;
    content: "";
-   width: 100%;
+   width: 95%;
    height: 100%;
    background: white;
-   background: linear-gradient(rgba(255, 255, 255, 0) 50%, #1864ab 100%);
+   background: linear-gradient(rgba(255, 4, 4, 0) 50%, #1864ab 100%);
    opacity: 0;
    transition: all 0.4s ease-out 0s;
 }
@@ -195,26 +206,15 @@ a:hover {
 }
 
 .sponsers .sponsers-content .sponsers-title {
-   font-size: 22px;
+   font-size: 20px;
    font-weight: 600;
    font-family: "Barlow", sans-serif;
    position: relative;
-   color: #fff;
-   margin-left: 60px;
+   color: black;
+   width: 80%;
+   padding: 10%;
 }
 
-.sponsers .sponsers-content .sponsers-title::before {
-   position: absolute;
-   content: "";
-   width: 50px;
-   height: 1px;
-   background-color: #fff;
-   top: 50%;
-   left: -60px;
-}
-.sponsers-title {
-   padding-bottom: 9%;
-}
 .sponsers:hover .sponsers-image::before {
    opacity: 1;
 }
@@ -274,7 +274,7 @@ i {
    transition: 0.3s;
 }
 .left_arrow:hover {
-   background: darkblue;
+   background: #3f3d56;
 }
 .right_arrow {
    position: absolute;
@@ -297,9 +297,12 @@ i {
    transition: 0.3s;
 }
 .right_arrow:hover {
-   background: darkblue;
+   background: #3f3d56;
 }
-
+.biganimation {
+   padding-left: 10%;
+   padding-right: 10%;
+}
 .lastanimation {
    display: block;
    margin-left: auto;
