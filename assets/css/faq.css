@@ -2,6 +2,7 @@
    margin: 5%;
 }
 .faq-heading {
+   text-align: center !important;
    margin-bottom: 1% !important;
 }
 .accordion .accordion-item {
