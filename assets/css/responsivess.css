@@ -26,7 +26,7 @@
    }
    .landing-page {
       width: 100vw;
-      height: 130vh;
+      height: 120vh;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -91,6 +91,10 @@
       padding-right: 8%;
       padding-left: 8%;
    }
+   .sponsers .sponsers-image {
+      height: 110px;
+   }
+
    .right_arrow,
    .left_arrow {
       height: 30px;

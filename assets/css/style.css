@@ -146,7 +146,10 @@ a:hover {
 /* Bounty */
 .bounty-description {
    text-align: left;
-   padding: 5%;
+   padding: 10%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 .special-prizes {
    margin: 8%;
@@ -170,7 +173,7 @@ a:hover {
 
 .sponsers .sponsers-image {
    position: relative;
-   background-color: #fbfafa;
+   background-color: #f3f5f6d0;
    height: 180px;
    margin-left: 5%;
    margin-right: 5%;
@@ -182,46 +185,14 @@ a:hover {
    border-radius: 20px;
    box-shadow: 2px 2px 6px #c0bcf34d;
 }
-
-.sponsers .sponsers-image::before {
-   position: absolute;
-   content: "";
-   width: 95%;
-   height: 100%;
-   background: white;
-   background: linear-gradient(rgba(255, 4, 4, 0) 50%, #1864ab 100%);
-   opacity: 0;
-   transition: all 0.4s ease-out 0s;
+.golden-sponser {
+   background-color: #fdfdd5 !important;
 }
-
-.sponsers .sponsers-content {
-   position: absolute;
-   bottom: 0;
-   left: 0;
-   width: 100%;
-   padding: 35px 5px;
-   transform: translateY(100%);
-   transition: all 0.4s ease-out 0s;
-   opacity: 0;
-}
-
-.sponsers .sponsers-content .sponsers-title {
+.sponser-tier {
    font-size: 20px;
    font-weight: 600;
-   font-family: "Barlow", sans-serif;
-   position: relative;
-   color: black;
-   width: 80%;
-   padding: 10%;
-}
-
-.sponsers:hover .sponsers-image::before {
-   opacity: 1;
-}
-
-.sponsers:hover .sponsers-content {
-   opacity: 1;
-   transform: translateY(0%);
+   font-family: "Poppins", sans-serif;
+   color: #3f3d56;
 }
 
 .sponsers-active .slick-dots {
@@ -252,7 +223,7 @@ a:hover {
 /* ----------auto-carousel----------- */
 
 i {
-   font-size: 18px;
+   font-size: 15px;
 }
 .left_arrow {
    position: absolute;
@@ -316,8 +287,8 @@ i {
    margin: 5%;
 }
 .team .team-content {
-   width: 70%;
-   margin: 2% auto;
+   width: 100%;
+   margin: 0 auto;
    padding: 1% 8%;
    position: relative;
    transition: all 0.4s ease-out 0s;
@@ -338,22 +309,21 @@ i {
 .team .team-content .social {
    /* opacity: 0; */
    /* visibility: hidden; */
+   margin-top: 5%;
    transition: all 0.4s ease-out 0s;
 }
 
 .team .team-content .social li {
    display: inline-block;
-   margin: 0 5px;
+   margin: 0 10px;
 }
 
 .team .team-content .social li a {
    font-size: 18px;
    color: #646464;
-   width: 200px;
-   height: 200px;
-   line-height: 15px;
    text-align: center;
-   border-radius: 50%;
+   padding: 25%;
+   border-radius: 100%;
    background-color: #ededed;
    transition: all 0.4s ease-out 0s;
 }
@@ -373,7 +343,7 @@ i {
 }
 .team-image {
    height: 140px;
-   width: 120px;
+   width: 140px;
    border-radius: 100%;
 }
 .hamburger-navbar {
@@ -494,11 +464,15 @@ i {
    padding: 30%;
    margin-bottom: 20% !important;
    font-family: "Poppins", sans-serif;
+   transition: all 0.4s ease-out 0s;
 }
 #nav-fullscreen li:hover {
-   list-style: disc;
+   list-style: circle;
+   font-style: italic;
 }
-
+.nav-fullscreen ul li a:hover {
+   color: black;
+}
 .navbar {
    position: fixed;
    width: 100%;
