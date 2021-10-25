@@ -59,7 +59,7 @@
       <!--====== PRELOADER PART START ======-->
       <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark  horizontal-navbar row">
          <div id="navv" class="col-md-4 ">
-            <a  class="navbar-brand " href="https://hft.excelmec.org/">  <img src="assets\images\logo\logo.svg" width="100" height="50" class="d-inline-block align-top" alt=""></a>
+            <a target="_blank" class="navbar-brand " href="https://hft.excelmec.org/">  <img src="assets\images\logo\logo.svg" width="100" height="50" class="d-inline-block align-top" alt=""></a>
          </div>
          <div class="col-md-6" id="navbarNav">
             <ul class="navbar-nav">
@@ -145,15 +145,15 @@
       </div>
       <!--====== Landing page1 ENDS ======-->
       <!--====== ABOUT PART START ======-->
-      <section id="about">
+      <section >
          <div class="container">
             <div class="row">
                <div class="col-md-5  col-sm-10">
                   <div id="initial_idea">
                   </div>
                </div>
-               <div class="col-md-6 col-sm-10 ">
-                  <div class="about-text">
+               <div class="col-md-6 col-sm-10 " id="about">
+                  <div class="about-text" >
                      <h3 class="heading">ABOUT</h3>
                      <p class=" content" >
                         A spark. 
@@ -164,7 +164,7 @@
                         <br/> <br/> 
                         Are you a beginner dabbling with ‘Hello World’ lines of code, looking to delve into more? Or are you looking to use your tech prowess to build something for society? HackForTomorrow is the right place for anyone looking to make a difference with tech, be it an amateur learner or an expert coder.   
                         <br/>  <br/>
-                        HackForTomorrow (HFT), a week long hackathon held in association with Devfolio, aims to encourage the development of innovative technological solutions for societal issues.<span class="smallscreen-hide"> The hackathon, held as part of Excel 2021, the techno-managerial symposium of Govt. Model Engineering College, has received over 300 participants for each of its previous editions & has produced some brilliant projects in the past. <br>If you’re looking to tackle the issues we face today with technology, then you’re in the right place! 
+                        HackForTomorrow (HFT), a week long hackathon held in association with Devfolio, aims to encourage the development of innovative technological solutions for societal issues.<span class="smallscreen-hide"> The hackathon, held as part of Excel 2021, the techno-managerial symposium of Govt. Model Engineering College, has received over 300 participants for each of its previous editions & has produced some brilliant projects in the past. If you’re looking to tackle the issues we face today with technology, then you’re in the right place! 
                         </span>
                         <br><br>What’s special about HackForTomorrow? <br/>
                         Ever since the pandemic hit & hackathons went into the online mode, much like anything else, we all missed out on some fun aspects of networking and co-working that happened during offline hackathons!
@@ -188,8 +188,8 @@
                   <h3 class="  heading">Why participate</h3>
                   <section id="whyparticipate" >
                      <div class="row justify-content-center content">
-                        <div class="col-md-10 col-sm-10">
-                           <div class="card-section text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.2s">
+                        <div class="col-md-10 col-sm-10 ">
+                           <div class="card-section text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" >
                               <div class="card-section-icon">
                                  <i class="fa fa-users"></i>
                               </div>
@@ -199,7 +199,7 @@
                            </div>
                         </div>
                         <div class="col-md-10 col-sm-10">
-                           <div class="card-section text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" >
+                           <div class="card-section text-center mt-30 wow fadeIn"data-wow-duration="1.5s" data-wow-delay="0.4s" >
                               <div class="card-section-icon">
                                  <i class="fa fa-trophy"></i>
                               </div>
@@ -211,7 +211,7 @@
                            <!-- single card-section -->
                         </div>
                         <div class="col-md-10 col-sm-10">
-                           <div class=" card-section text-center mt-30 wow fadeInUp" data-wow-duration="1.0s">
+                           <div class=" card-section text-center mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
                               <div class=" card-section-icon">
                                  <i class="fa fa-gift"></i>
                               </div>
@@ -223,7 +223,7 @@
                            <!-- single card-section -->
                         </div>
                         <div class="col-md-10 col-sm-10">
-                           <div class="card-section text-center mt-30 wow fadeInUp" data-wow-duration="1.0s">
+                           <div class="card-section text-center mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.2s">
                               <div class="card-section-icon">
                                  <i class="fa fa-laptop"></i>
                               </div>
@@ -234,7 +234,7 @@
                            <!-- single card-section -->
                         </div>
                         <div class="col-md-10 col-sm-10">
-                           <div class="card-section text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" >
+                           <div class="card-section text-center mt-30 wow fadeIn" data-wow-duration="1.6s" >
                               <div class="card-section-icon">
                                  <i class="fa fa-code"></i>
                               </div>
@@ -355,7 +355,7 @@
       <!-- Special -->
       <section class="special-prizes">
          <h3 class=" heading text-center">Bounties</h3>
-         <div class="row  content ">
+         <div class="row  content bouties-div">
             <div class="col-md-4 col-sm-8 bounty-card">
                <div class=" card-section text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.2s">
                   <div class="card-section-icon">
@@ -617,12 +617,12 @@
                      <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">What are the criteria for judgement?</span><span class="icon" aria-hidden="true"></span></button>
                      <div class="accordion-content">
                      <ul>
-                        <li class="paddin"><b>Originality</b> - Has this project been done before at hackathons in the past? How creative is the project in solving the problem at hand?
+                        <li class="paddin">1. <b>Originality</b> - Has this project been done before at hackathons in the past? How creative is the project in solving the problem at hand?
                         </li>
-                        <li class="paddin"><b>Completion of hack </b> - Does the hack work? Did the team achieve everything they wanted?
+                        <li class="paddin">2. <b>Completion of hack </b> - Does the hack work? Did the team achieve everything they wanted?
                         </li>
-                        <li class="paddin"><b>Design</b> - Did the team put thought into the user experience? How well-designed is the interface?</li>
-                        <li class="paddin"><b>Technology</b> - How technically impressive was the hack? Was the technical problem the team tackled difficult? Did it use a particularly clever technique or did it use many different components? Did the technology involved make you go "Wow"?</li>
+                        <li class="paddin">3. <b>Design</b> - Did the team put thought into the user experience? How well-designed is the interface?</li>
+                        <li class="paddin">4. <b>Technology</b> - How technically impressive was the hack? Was the technical problem the team tackled difficult? Did it use a particularly clever technique or did it use many different components? Did the technology involved make you go "Wow"?</li>
                  
                      </ul> 
                      </div>
@@ -734,6 +734,8 @@
          }
          
          items.forEach(item => item.addEventListener('click', toggleAccordion));
+         // Navbar close
+       
       </script>
    </body>
 </html>

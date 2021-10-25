@@ -25,6 +25,9 @@ $(document).ready(function () {
    $("#nav-toggle").click(function () {
       $("#nav-toggle, #nav-overlay, #nav-fullscreen").toggleClass("open");
    });
+   $("#nav-fullscreen li a").click(function () {
+      $("#nav-toggle, #nav-overlay, #nav-fullscreen").toggleClass("open");
+   });
 
    $(window).resize(resizeNav);
 

@@ -103,7 +103,7 @@ img {
 
 .card-section:hover {
    background-color: #3f3d56;
-   border-radius: 10%;
+   border-radius: 5%;
    color: white;
 }
 
@@ -146,17 +146,25 @@ a:hover {
 /* Bounty */
 .bounty-description {
    text-align: left;
-   padding: 10%;
+   padding: 5%;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+.special-prizes {
+   margin: 1%;
    display: block;
    margin-left: auto;
    margin-right: auto;
 }
-.special-prizes {
-   margin: 8%;
+.bouties-div {
+   margin-left: 5%;
 }
+
 .bounty-card {
    padding-right: 3%;
    padding-left: 3%;
+   display: flex;
+   flex-wrap: wrap;
 }
 
 #judges {
@@ -333,10 +341,6 @@ i {
    color: rgb(10, 10, 10);
 }
 
-.team:hover .team-content .social {
-   opacity: 1;
-   visibility: visible;
-}
 .team-img-div {
    height: 100%;
    width: 100%;
