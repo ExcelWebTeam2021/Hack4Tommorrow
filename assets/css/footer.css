@@ -9,16 +9,16 @@
 .footer-mec {
    float: left;
 }
+.footer-mec-small {
+   display: none;
+}
 
 .footer-mec img {
    width: 120px;
 }
-.footer-excel {
-   float: right !important;
-}
+
 .excel {
    width: 100px;
-   float: right !important;
 }
 
 @media (max-width: 767px) {
@@ -29,6 +29,15 @@
    }
    .footer-mec img {
       display: none;
+   }
+   .footer-mec-small img {
+      display: block;
+   }
+   .footer-excel {
+      text-align: center !important;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
    }
    .rounded-social-buttons {
       margin-top: 30px;

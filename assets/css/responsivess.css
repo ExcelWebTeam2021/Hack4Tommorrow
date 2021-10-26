@@ -165,7 +165,7 @@
       display: none;
    }
    .landingpage_girl {
-      width: 70%;
+      width: 75%;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -196,8 +196,20 @@
       padding-top: 75px;
       padding-bottom: 80px;
    }
+
+   .footer-excel {
+      text-align: center !important;
+   }
+   .excel {
+      text-align: center !important;
+   }
 }
 @media (min-device-width: 1000px) and (max-device-width: 2000px) {
+   .excel {
+      width: 100px;
+      float: right;
+   }
+
    .larger-screen-img {
       display: block;
       margin-left: auto;
