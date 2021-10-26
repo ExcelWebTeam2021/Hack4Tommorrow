@@ -81,7 +81,7 @@
 }
 .accordion button[aria-expanded="true"] + .accordion-content {
    opacity: 1;
-   max-height: 15em;
+   max-height: 18em;
    transition: all 200ms linear;
    will-change: opacity, max-height;
 }
