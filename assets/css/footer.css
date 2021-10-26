@@ -14,10 +14,11 @@
    width: 120px;
 }
 .footer-excel {
-   float: right;
+   float: right !important;
 }
 .excel {
    width: 100px;
+   float: right !important;
 }
 
 @media (max-width: 767px) {

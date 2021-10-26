@@ -55,10 +55,10 @@
    <body>
       <!--====== PRELOADER PART START ======-->
       <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark  horizontal-navbar row">
-         <div id="navv" class="col-md-4 ">
+         <div id="navv">
             <a target="_blank" class="navbar-brand " href="https://hft.excelmec.org/">  <img src="assets\images\logo\logo.svg" width="100" height="50" class="d-inline-block align-top" alt=""></a>
          </div>
-         <div class="col-md-6" id="navbarNav">
+         <div id="navbarNav">
             <ul class="navbar-nav">
                <li class="nav-item active">
                   <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
@@ -76,6 +76,9 @@
                   <a class="nav-link" href="#faq">FAQ</a>
                </li>
             </ul>
+         </div>
+         <div id="navv">
+            <a target="_blank" class="navbar-brand " href="http://iedc.mec.ac.in">  <img src="assets\images\logo\IEDC.png" width="90" height="70" class="d-inline-block align-top" alt=""></a>
          </div>
       </nav>
       <div id="nav-container" class="hamburger-navbar">
@@ -110,10 +113,7 @@
                <div class="col-md-7 col-sm-10 landingpage-text">
                   <div>
                      <div class="landingpage-maintext">
-                        <h1 class="landingpage-heading1  wow fadeInUp" data-wow-duration="1s" >
-                           Hack for 
-                        </h1>
-                        <h1 class="landingpage-heading2  wow fadeInUp" data-wow-duration="1s"  >Tomorrow</h1>
+                      <img class="hftlogo" src="assets/images/hftlp.svg" alt="">
                         <div class="landingpage-description wow fadeIn content"  data-wow-duration="2s"> 
                            Code for fun. <br> Code for the world. <br>  Code for a better tomorrow 
                         </div>
@@ -198,7 +198,7 @@
                            </div>
                         </div>
                         <div class="col-md-10 col-sm-10">
-                           <div class="card-section text-center mt-30 wow fadeIn"data-wow-duration="1.5s" data-wow-delay="0.4s" >
+                           <div class="card-section text-center mt-30 wow fadeIn" data-wow-duration="1.5s" >
                               <div class="card-section-icon">
                                  <i class="fa fa-trophy"></i>
                               </div>
@@ -210,7 +210,7 @@
                            <!-- single card-section -->
                         </div>
                         <div class=" col-md-10 col-sm-10">
-                           <div class=" card-section text-center mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
+                           <div class=" card-section text-center mt-30 wow fadeIn" data-wow-duration="1.5s" >
                               <div class=" card-section-icon">
                                  <i class="fa fa-gift"></i>
                               </div>
@@ -222,7 +222,7 @@
                            <!-- single card-section -->
                         </div>
                         <div class=" col-md-10 col-sm-10">
-                           <div class="card-section text-center mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                           <div class="card-section text-center mt-30 wow fadeIn" data-wow-duration="1.5s" >
                               <div class="card-section-icon">
                                  <i class="fa fa-laptop"></i>
                               </div>
@@ -233,7 +233,7 @@
                            <!-- single card-section -->
                         </div>
                         <div class=" col-md-10 col-sm-10">
-                           <div class="card-section text-center mt-30 wow fadeIn" data-wow-duration="1.6s" >
+                           <div class="card-section text-center mt-30 wow fadeIn">
                               <div class="card-section-icon">
                                  <i class="fa fa-code"></i>
                               </div>
@@ -356,7 +356,7 @@
          <h3 class=" heading text-center">Bounties</h3>
          <div class="row  content bouties-div">
             <div class="col-md-4 col-sm-8 bounty-card">
-               <div class=" card-section text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.2s">
+               <div class=" card-section bounty-carddiv text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.2s">
                   <div class="card-section-icon">
                      <img class="prize pb-3" src="assets/images/sponsers/polygon.png" alt="">
                   </div>
@@ -371,7 +371,7 @@
                </div>
             </div>
             <div class="col-md-4 col-sm-8 bounty-card">
-               <div class="card-section text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" >
+               <div class="card-section bounty-carddiv text-center mt-30 wow fadeInUp" data-wow-duration="1.0s" >
                   <div class="card-section-icon">
                      <img class="prize pb-3" src="assets/images/sponsers/Tezos_Logo-Colored.png" alt="">
                   </div>
@@ -390,7 +390,7 @@
             </div>
             <div class="col-md-4 col-sm-8 bounty-card">
                <div class="row">
-                  <div class="col-sm-8 card-section text-center mt-30 wow fadeInUp" data-wow-duration="1.0s">
+                  <div class="col-sm-8 bounty-carddiv card-section text-center mt-30 wow fadeInUp" data-wow-duration="1.0s">
                      <div class="card-section-icon">
                         <img class="prize" src="assets/images/sponsers/Celo Logo Color@2x.png" alt="">
                      </div>
@@ -398,7 +398,7 @@
                         <li>20000 INR for best Dapp built on Celo</li>
                      </ul>
                   </div>
-                  <div class="col-sm-8 card-section text-center wow fadeInUp" data-wow-duration="1.0s">
+                  <div class="col-sm-8 bounty-carddiv card-section text-center wow fadeInUp" data-wow-duration="1.0s">
                      <div class="card-section-icon">
                         <img class="prize" src="assets/images/sponsers/Filecoin Coloured White Text.png" alt="">
                      </div>
@@ -608,7 +608,7 @@
                   <div class="accordion-item content">
                      <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Is the hackathon free? </span><span class="icon" aria-hidden="true"></span></button>
                      <div class="accordion-content">
-                        <p class="paddin">The hackathon is completely free. If you will be joining us offline in the last 24 hours of the hackathon and you want to avail food, there will be a fee of INR 100.
+                        <p class="paddin">The hackathon is completely free. If you will be joining us offline in the last 24 hours of the hackathon and you want to avail food, there will be a small fee.
                         </p>
                      </div>
                   </div>
@@ -647,7 +647,7 @@
                   <img class=" mec" src="/assets/images/logo/mec_logo.png" alt="mec_logo" >
                   </a>
                </div>
-               <div class="rounded-social-buttons col-md-5 col-sm-10">
+               <div class="rounded-social-buttons col-md-6 col-sm-10">
 
                   <a class="social-button facebook " href="mailto:hackfortomorrow@gmail.com " target="_blank"><i class="fa fa-envelope icon " ></i></a>
                   <a class="social-button instagram" href="https://www.instagram.com/excelmec/" target="_blank"><i class="fa fa-instagram "></i></a>
@@ -659,7 +659,7 @@
                      Made with ♥ Excel 2021
                   </p>
                </div>
-               <div class="footer-excel col-md-3 ">
+               <div class="footer-excel col-md-3 col-sm-10">
                   <a href="https://www.excelmec.org/" target="_blank">
                   <img class=" excel" src="/assets/images/logo/logo.svg" alt="excel_logo" >
                   </a>
