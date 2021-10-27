@@ -45,9 +45,9 @@
       font-size: 50px;
    }
    .apply-button {
-      width: 70%;
+      height: 44px;
+      width: 180px;
    }
-
    .landingpage-description {
       font-size: 15px;
    }
@@ -229,6 +229,6 @@
 @media (max-width: 500px) {
    .paddin {
       text-align: left;
-      padding-left: 3%;
+      padding-left: 5%;
    }
 }

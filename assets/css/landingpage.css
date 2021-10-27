@@ -61,7 +61,10 @@
    display: block;
    font-size: 28px;
 }
-
+.apply-button {
+   height: 44px;
+   width: 280px;
+}
 .animation-container {
    z-index: 1;
    background: #fff;
