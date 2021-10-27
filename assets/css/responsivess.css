@@ -46,7 +46,7 @@
    }
    .apply-button {
       height: 44px;
-      width: 180px;
+      width: 100px !important;
    }
    .landingpage-description {
       font-size: 15px;
