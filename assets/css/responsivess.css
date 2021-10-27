@@ -44,8 +44,8 @@
       margin: auto;
       font-size: 50px;
    }
-   .landingpage-heading2 {
-      text-shadow: -1px -1px 0 #6c63ff, 1px -1px 0 #8c88e2, -1px 1px 0 #6c63ff, 1px 1px 0 #6c63ff;
+   .apply-button {
+      width: 70%;
    }
 
    .landingpage-description {
