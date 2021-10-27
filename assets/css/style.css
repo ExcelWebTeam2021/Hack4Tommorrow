@@ -70,6 +70,9 @@ img {
 .whyparticipate-reason {
    padding: 5%;
 }
+.ibeto:hover a {
+   color: #fff !important;
+}
 .timeline-div {
    margin-top: 2%;
 }
@@ -103,7 +106,7 @@ img {
    color: #646464 !important;
 }
 .card-section:hover .card-section-icon i {
-   color: #fff;
+   color: #fff !important;
 }
 .card-section-title {
    color: #3f3d56;
