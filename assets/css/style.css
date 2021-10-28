@@ -73,6 +73,10 @@ img {
 .ibeto:hover a {
    color: #fff !important;
 }
+.b1:hover,
+.b2:hover {
+   color: #646464 !important;
+}
 .timeline-div {
    margin-top: 2%;
 }
